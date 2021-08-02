@@ -2,10 +2,12 @@
   "id": 1746094087,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-08-02",
+    "date:cessation_upper": "2021-08-02",
     "date:inception_lower": "2021-08-01",
     "date:inception_upper": "2021-08-01",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-08-01",
+    "edtf:cessation": "2021-08-02T03:34:00Z",
+    "edtf:inception": "2021-08-01T22:16:00Z",
     "flysfo:actual_timestamp": 1627875540,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-08-01",
@@ -21,9 +23,11 @@
     "geom:latitude": 29.3291535,
     "geom:longitude": -104.6218995,
     "iata:airline": "UA",
+    "icao:aircraft": "B739",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617906,
     "lbl:longitude": -122.390944,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102536223,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -48,6 +56,10 @@
       1745882335, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "161497589",
+      "swim:gufi": "KL07547200"
+    },
     "wof:country": "US",
     "wof:created": 1627920504,
     "wof:geomhash": "c1b858affbd20b2c728ba535a4ce178e",
@@ -79,12 +91,13 @@
     ],
     "wof:id": 1746094087,
     "wof:involves": [
+      1745882413, 
+      1377564285, 
       102527513, 
       102536223, 
-      1159285413, 
-      1745882413
+      1159285413
     ],
-    "wof:lastmodified": 1627920504,
+    "wof:lastmodified": 1627921164,
     "wof:name": "UA1118 (CUN-SFO)",
     "wof:parent_id": 1745882413,
     "wof:placetype": "event",

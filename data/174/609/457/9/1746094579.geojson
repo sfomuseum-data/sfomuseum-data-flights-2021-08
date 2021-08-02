@@ -2,10 +2,12 @@
   "id": 1746094579,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-08-01",
+    "date:cessation_upper": "2021-08-01",
     "date:inception_lower": "2021-08-01",
     "date:inception_upper": "2021-08-01",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-08-01",
+    "edtf:cessation": "2021-08-01T21:36:00Z",
+    "edtf:inception": "2021-08-01T06:01:34-07:00",
     "flysfo:actual_timestamp": 1627858800,
     "flysfo:airline": "AA",
     "flysfo:date": "2021-08-01",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.525337,
     "geom:longitude": -117.19416749999999,
     "iata:airline": "AA",
+    "icao:aircraft": "A321",
     "icao:airline": "AAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102526751,
     "sfomuseum:departure_id": 102527513,
@@ -34,19 +38,28 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-takeoff"
+    ],
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "161526067",
+      "swim:gufi": "KO64848100"
+    },
     "wof:country": "US",
     "wof:created": 1627920638,
     "wof:geomhash": "2a19f056fd5d16c52f22f1bf5dc85c9c",
     "wof:hierarchy": [],
     "wof:id": 1746094579,
     "wof:involves": [
+      1159289411, 
       102526751, 
       102527513, 
-      1159283849, 
-      -1
+      1159283849
     ],
-    "wof:lastmodified": 1627920638,
+    "wof:lastmodified": 1627921158,
     "wof:name": "AA9812 (SFO-PHX)",
     "wof:parent_id": -1,
     "wof:placetype": "event",

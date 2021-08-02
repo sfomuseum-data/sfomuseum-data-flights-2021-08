@@ -2,10 +2,12 @@
   "id": 1746093995,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-08-01",
+    "date:cessation_upper": "2021-08-01",
     "date:inception_lower": "2021-08-01",
     "date:inception_upper": "2021-08-01",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-08-01",
+    "edtf:cessation": "2021-08-01T23:09:00Z",
+    "edtf:inception": "2021-08-01T22:17:00Z",
     "flysfo:actual_timestamp": 1627858800,
     "flysfo:airline": "WN",
     "flysfo:date": "2021-08-01",
@@ -34,6 +36,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -48,6 +53,9 @@
       1745882137, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "161496002"
+    },
     "wof:country": "US",
     "wof:created": 1627920479,
     "wof:geomhash": "f16008bc2ad68c6d1bc593247c6c74a9",
@@ -84,7 +92,7 @@
       1159285591, 
       1745882153
     ],
-    "wof:lastmodified": 1627920479,
+    "wof:lastmodified": 1627921163,
     "wof:name": "WN4207 (LAX-SFO)",
     "wof:parent_id": 1745882153,
     "wof:placetype": "event",

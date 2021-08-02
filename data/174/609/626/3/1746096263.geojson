@@ -2,10 +2,12 @@
   "id": 1746096263,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-08-01",
+    "date:cessation_upper": "2021-08-01",
     "date:inception_lower": "2021-08-01",
     "date:inception_upper": "2021-08-01",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-08-01",
+    "edtf:cessation": "2021-08-01T11:53:31Z",
+    "edtf:inception": "2021-08-01T07:17:00Z",
     "flysfo:actual_timestamp": 1627801440,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-08-01",
@@ -48,6 +50,9 @@
       1745882233, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "161433527"
+    },
     "wof:country": "US",
     "wof:created": 1627921082,
     "wof:geomhash": "1c4ce661f6692034a082b31062a17f5e",
@@ -84,7 +89,7 @@
       1159285413, 
       1745882255
     ],
-    "wof:lastmodified": 1627921082,
+    "wof:lastmodified": 1627921160,
     "wof:name": "UA455 (SFO-IAD)",
     "wof:parent_id": 1745882255,
     "wof:placetype": "event",
