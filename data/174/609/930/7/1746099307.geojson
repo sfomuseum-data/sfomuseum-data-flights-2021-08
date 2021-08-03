@@ -2,10 +2,12 @@
   "id": 1746099307,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-08-03",
+    "date:cessation_upper": "2021-08-03",
     "date:inception_lower": "2021-08-02",
     "date:inception_upper": "2021-08-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-08-02",
+    "edtf:cessation": "2021-08-03T09:51:00Z",
+    "edtf:inception": "2021-08-02T15:44:03-07:00",
     "flysfo:actual_timestamp": 1627968480,
     "flysfo:airline": "DL",
     "flysfo:date": "2021-08-02",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.918425,
     "geom:longitude": -102.86132599999999,
     "iata:airline": "DL",
+    "icao:aircraft": "B739",
     "icao:airline": "DAL",
     "lbl:latitude": 37.614921058692055,
     "lbl:longitude": -122.38233552667353,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102525635,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path", 
+      "swim-takeoff"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -48,6 +56,9 @@
       1745882137, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO16862300"
+    },
     "wof:country": "US",
     "wof:created": 1628007162,
     "wof:geomhash": "9151bfe07cf224e1ff61a7f7b8c30671",
@@ -82,9 +93,10 @@
       102525635, 
       102527513, 
       1159284261, 
-      1745882213
+      1745882213, 
+      1377564285
     ],
-    "wof:lastmodified": 1628007162,
+    "wof:lastmodified": 1628007459,
     "wof:name": "DL1061 (SFO-DTW)",
     "wof:parent_id": 1745882213,
     "wof:placetype": "event",
