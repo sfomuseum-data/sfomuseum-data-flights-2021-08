@@ -2,10 +2,12 @@
   "id": 1746101599,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-08-03",
+    "date:cessation_upper": "2021-08-03",
     "date:inception_lower": "2021-08-03",
     "date:inception_upper": "2021-08-03",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-08-03",
+    "edtf:cessation": "2021-08-03T07:56:27Z",
+    "edtf:inception": "2021-08-03T02:32:00Z",
     "flysfo:actual_timestamp": 1627977660,
     "flysfo:airline": "B6",
     "flysfo:date": "2021-08-03",
@@ -48,6 +50,9 @@
       1745882137, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "161583856"
+    },
     "wof:country": "US",
     "wof:created": 1628093162,
     "wof:geomhash": "c5a7260789285730f3096bea2169f55b",
@@ -84,7 +89,7 @@
       1159284583, 
       1745882143
     ],
-    "wof:lastmodified": 1628093162,
+    "wof:lastmodified": 1628093853,
     "wof:name": "B62843 (BDL-SFO)",
     "wof:parent_id": 1745882143,
     "wof:placetype": "event",

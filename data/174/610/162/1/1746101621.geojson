@@ -2,10 +2,12 @@
   "id": 1746101621,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-08-04",
+    "date:cessation_upper": "2021-08-04",
     "date:inception_lower": "2021-08-03",
     "date:inception_upper": "2021-08-03",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-08-03",
+    "edtf:cessation": "2021-08-04T01:35:00Z",
+    "edtf:inception": "2021-08-03T20:14:00Z",
     "flysfo:actual_timestamp": 1628040960,
     "flysfo:airline": "B6",
     "flysfo:date": "2021-08-03",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.1546165,
     "geom:longitude": -98.2742345,
     "iata:airline": "B6",
+    "icao:aircraft": "A321",
     "icao:airline": "JBU",
     "lbl:latitude": 37.613222002983164,
     "lbl:longitude": -122.38425114624033,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159284583,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102530049,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-approach"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -79,12 +88,13 @@
     ],
     "wof:id": 1746101621,
     "wof:involves": [
+      1745882143, 
+      1159289411, 
       102527513, 
       102530049, 
-      1159284583, 
-      1745882143
+      1159284583
     ],
-    "wof:lastmodified": 1628093168,
+    "wof:lastmodified": 1628093859,
     "wof:name": "B6683 (EWR-SFO)",
     "wof:parent_id": 1745882143,
     "wof:placetype": "event",
