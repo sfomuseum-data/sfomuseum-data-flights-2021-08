@@ -2,10 +2,12 @@
   "id": 1746109021,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2021-08-05",
-    "date:inception_upper": "2021-08-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-08-05",
+    "date:cessation_lower": "2021-08-06",
+    "date:cessation_upper": "2021-08-06",
+    "date:inception_lower": "1970-01-01",
+    "date:inception_upper": "1970-01-01",
+    "edtf:cessation": "2021-08-05T18:17:45-07:00",
+    "edtf:inception": "1970-01-01T00:00:00Z",
     "flysfo:actual_timestamp": 1628204400,
     "flysfo:airline": "DL",
     "flysfo:date": "2021-08-05",
@@ -21,9 +23,11 @@
     "geom:latitude": 41.2506555,
     "geom:longitude": -107.78563,
     "iata:airline": "DL",
+    "icao:aircraft": "B752",
     "icao:airline": "DAL",
     "lbl:latitude": 37.615184,
     "lbl:longitude": -122.382965,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102531131,
@@ -34,6 +38,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-approach"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -79,12 +86,13 @@
     ],
     "wof:id": 1746109021,
     "wof:involves": [
+      1159289939, 
       102527513, 
       102531131, 
       1159284261, 
       1745882205
     ],
-    "wof:lastmodified": 1628265943,
+    "wof:lastmodified": 1628266828,
     "wof:name": "DL1030 (MSP-SFO)",
     "wof:parent_id": 1745882205,
     "wof:placetype": "event",

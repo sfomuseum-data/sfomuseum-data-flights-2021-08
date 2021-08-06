@@ -2,10 +2,12 @@
   "id": 1746108899,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2021-08-05",
-    "date:inception_upper": "2021-08-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-08-05",
+    "date:cessation_lower": "2021-08-06",
+    "date:cessation_upper": "2021-08-06",
+    "date:inception_lower": "2021-08-06",
+    "date:inception_upper": "2021-08-06",
+    "edtf:cessation": "2021-08-06T06:44:22Z",
+    "edtf:inception": "2021-08-06T02:08:00Z",
     "flysfo:actual_timestamp": 1628204400,
     "flysfo:airline": "AS",
     "flysfo:date": "2021-08-05",
@@ -21,9 +23,11 @@
     "geom:latitude": 29.475248999999998,
     "geom:longitude": -140.1446795,
     "iata:airline": "AS",
+    "icao:aircraft": "B738",
     "icao:airline": "ASA",
     "lbl:latitude": 37.617908,
     "lbl:longitude": -122.381084,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533997,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-approach"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -48,6 +57,9 @@
       1745882085, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "161765522"
+    },
     "wof:country": "US",
     "wof:created": 1628265910,
     "wof:geomhash": "1ad63fa22de9103ed4396c0ca683f63f",
@@ -82,9 +94,10 @@
       102527513, 
       102533997, 
       1159283813, 
-      1745882113
+      1745882113, 
+      1159289871
     ],
-    "wof:lastmodified": 1628265910,
+    "wof:lastmodified": 1628266828,
     "wof:name": "AS710 (HNL-SFO)",
     "wof:parent_id": 1745882113,
     "wof:placetype": "event",

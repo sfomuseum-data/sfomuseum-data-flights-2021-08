@@ -2,10 +2,12 @@
   "id": 1746108839,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-08-05",
+    "date:cessation_upper": "2021-08-05",
     "date:inception_lower": "2021-08-05",
     "date:inception_upper": "2021-08-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-08-05",
+    "edtf:cessation": "2021-08-05T11:11:17-07:00",
+    "edtf:inception": "2021-08-05T21:08:00Z",
     "flysfo:actual_timestamp": 1628212500,
     "flysfo:airline": "AS",
     "flysfo:date": "2021-08-05",
@@ -21,9 +23,11 @@
     "geom:latitude": 49.395798,
     "geom:longitude": -136.169672,
     "iata:airline": "AS",
+    "icao:aircraft": "B738",
     "icao:airline": "ASA",
     "lbl:latitude": 37.61705,
     "lbl:longitude": -122.380838,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102531979,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-approach"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -48,6 +57,9 @@
       1745882085, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "161834296"
+    },
     "wof:country": "US",
     "wof:created": 1628265892,
     "wof:geomhash": "40576486fbb454d3a66da49d62a0ae33",
@@ -79,12 +91,13 @@
     ],
     "wof:id": 1746108839,
     "wof:involves": [
+      1159289871, 
       102527513, 
       102531979, 
       1159283813, 
       1745882103
     ],
-    "wof:lastmodified": 1628265892,
+    "wof:lastmodified": 1628266828,
     "wof:name": "AS230 (ANC-SFO)",
     "wof:parent_id": 1745882103,
     "wof:placetype": "event",

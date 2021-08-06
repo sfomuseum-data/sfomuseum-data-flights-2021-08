@@ -2,10 +2,12 @@
   "id": 1746108793,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2021-08-05",
-    "date:inception_upper": "2021-08-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-08-05",
+    "date:cessation_lower": "2021-08-06",
+    "date:cessation_upper": "2021-08-06",
+    "date:inception_lower": "2021-08-06",
+    "date:inception_upper": "2021-08-06",
+    "edtf:cessation": "2021-08-06T01:53:30Z",
+    "edtf:inception": "2021-08-06T00:37:00Z",
     "flysfo:actual_timestamp": 1628215020,
     "flysfo:airline": "AS",
     "flysfo:date": "2021-08-05",
@@ -21,9 +23,11 @@
     "geom:latitude": 41.602067,
     "geom:longitude": -122.484166,
     "iata:airline": "AS",
+    "icao:aircraft": "A320",
     "icao:airline": "ASA",
     "lbl:latitude": 37.617908,
     "lbl:longitude": -122.381084,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102532251,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-approach"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -79,12 +88,13 @@
     ],
     "wof:id": 1746108793,
     "wof:involves": [
-      102527513, 
       102532251, 
       1159283813, 
-      1745882113
+      1745882113, 
+      1159292085, 
+      102527513
     ],
-    "wof:lastmodified": 1628265878,
+    "wof:lastmodified": 1628266828,
     "wof:name": "AS1414 (PDX-SFO)",
     "wof:parent_id": 1745882113,
     "wof:placetype": "event",
