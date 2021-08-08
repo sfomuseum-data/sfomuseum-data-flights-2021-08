@@ -2,10 +2,12 @@
   "id": 1746119845,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-08-07",
+    "date:cessation_upper": "2021-08-07",
     "date:inception_lower": "2021-08-07",
     "date:inception_upper": "2021-08-07",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-08-07",
+    "edtf:cessation": "2021-08-07T20:00:00Z",
+    "edtf:inception": "2021-08-07T04:18:37-07:00",
     "flysfo:actual_timestamp": 1628377200,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-08-07",
@@ -21,9 +23,11 @@
     "geom:latitude": 41.6967075,
     "geom:longitude": -116.76460499999999,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618678,
     "lbl:longitude": -122.385955,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102530815,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-takeoff"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -48,6 +57,10 @@
       1745882233, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "162005516",
+      "swim:gufi": "KO59132700"
+    },
     "wof:country": "US",
     "wof:created": 1628439383,
     "wof:geomhash": "8115bc7828d3bd6404c793fb172971b8",
@@ -79,12 +92,13 @@
     ],
     "wof:id": 1746119845,
     "wof:involves": [
+      1159289407, 
       102530815, 
       102527513, 
       1159285413, 
       1745882243
     ],
-    "wof:lastmodified": 1628439383,
+    "wof:lastmodified": 1628439461,
     "wof:name": "UA485 (SFO-BZN)",
     "wof:parent_id": 1745882243,
     "wof:placetype": "event",
