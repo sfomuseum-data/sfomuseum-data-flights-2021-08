@@ -2,10 +2,12 @@
   "id": 1746123771,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-08-08",
+    "date:cessation_upper": "2021-08-08",
     "date:inception_lower": "2021-08-08",
     "date:inception_upper": "2021-08-08",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-08-08",
+    "edtf:cessation": "2021-08-08T18:43:17Z",
+    "edtf:inception": "2021-08-08T17:38:00Z",
     "flysfo:actual_timestamp": 1628443620,
     "flysfo:airline": "WN",
     "flysfo:date": "2021-08-08",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.8494965,
     "geom:longitude": -118.7636915,
     "iata:airline": "WN",
+    "icao:aircraft": "B38M",
     "icao:airline": "SWA",
     "lbl:latitude": 37.61266515122482,
     "lbl:longitude": -122.38444006596885,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102527209,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-takeoff"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -48,6 +57,9 @@
       1745882137, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "162083057"
+    },
     "wof:country": "US",
     "wof:created": 1628525826,
     "wof:geomhash": "ccf694144ef1f7a2823fe9bc7c6018ea",
@@ -79,12 +91,13 @@
     ],
     "wof:id": 1746123771,
     "wof:involves": [
+      1745882149, 
+      1528104575, 
       102527209, 
       102527513, 
-      1159285591, 
-      1745882149
+      1159285591
     ],
-    "wof:lastmodified": 1628525826,
+    "wof:lastmodified": 1628525984,
     "wof:name": "WN4507 (SFO-LAS)",
     "wof:parent_id": 1745882149,
     "wof:placetype": "event",

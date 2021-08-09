@@ -2,10 +2,12 @@
   "id": 1746123589,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-08-08",
+    "date:cessation_upper": "2021-08-08",
     "date:inception_lower": "2021-08-08",
     "date:inception_upper": "2021-08-08",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-08-08",
+    "edtf:cessation": "2021-08-08T22:02:05Z",
+    "edtf:inception": "2021-08-08T09:43:00Z",
     "flysfo:actual_timestamp": 1628414580,
     "flysfo:airline": "PR",
     "flysfo:date": "2021-08-08",
@@ -48,6 +50,9 @@
       1745882335, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "162089038"
+    },
     "wof:country": "US",
     "wof:created": 1628525780,
     "wof:geomhash": "f7b726ae54aa9222cfb9d243d2e793d0",
@@ -84,7 +89,7 @@
       1159285015, 
       1745882359
     ],
-    "wof:lastmodified": 1628525780,
+    "wof:lastmodified": 1628525978,
     "wof:name": "PR5105 (SFO-CEB)",
     "wof:parent_id": 1745882359,
     "wof:placetype": "event",
