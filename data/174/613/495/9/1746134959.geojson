@@ -2,10 +2,12 @@
   "id": 1746134959,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2021-08-11",
-    "date:inception_upper": "2021-08-11",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-08-11",
+    "date:cessation_lower": "2021-08-12",
+    "date:cessation_upper": "2021-08-12",
+    "date:inception_lower": "2021-08-12",
+    "date:inception_upper": "2021-08-12",
+    "edtf:cessation": "2021-08-12T08:58:16Z",
+    "edtf:inception": "2021-08-11T17:21:26-07:00",
     "flysfo:actual_timestamp": 1628722800,
     "flysfo:airline": "DL",
     "flysfo:date": "2021-08-11",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.525337,
     "geom:longitude": -117.19416749999999,
     "iata:airline": "DL",
+    "icao:aircraft": "B752",
     "icao:airline": "DAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102526751,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,14 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path", 
+      "swim-takeoff"
+    ],
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:gufi": "KO20444500"
+    },
     "wof:country": "US",
     "wof:created": 1628784863,
     "wof:geomhash": "2a19f056fd5d16c52f22f1bf5dc85c9c",
@@ -44,9 +55,9 @@
       102526751, 
       102527513, 
       1159284261, 
-      -1
+      1159289939
     ],
-    "wof:lastmodified": 1628784863,
+    "wof:lastmodified": 1628785160,
     "wof:name": "DL8876 (SFO-PHX)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
