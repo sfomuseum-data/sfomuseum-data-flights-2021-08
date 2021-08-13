@@ -2,10 +2,12 @@
   "id": 1746137605,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-08-12",
+    "date:cessation_upper": "2021-08-12",
     "date:inception_lower": "2021-08-12",
     "date:inception_upper": "2021-08-12",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-08-12",
+    "edtf:cessation": "2021-08-12T20:30:52Z",
+    "edtf:inception": "2021-08-12T05:32:00Z",
     "flysfo:actual_timestamp": 1628800680,
     "flysfo:airline": "EK",
     "flysfo:date": "2021-08-12",
@@ -48,6 +50,9 @@
       1745882335, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "162373655"
+    },
     "wof:country": "US",
     "wof:created": 1628870897,
     "wof:geomhash": "8eef79dee45c47eff2935879475b5fae",
@@ -84,7 +89,7 @@
       1159284333, 
       1745882349
     ],
-    "wof:lastmodified": 1628870897,
+    "wof:lastmodified": 1628871554,
     "wof:name": "EK225 (DXB-SFO)",
     "wof:parent_id": 1745882349,
     "wof:placetype": "event",
