@@ -2,10 +2,12 @@
   "id": 1746142517,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-08-14",
+    "date:cessation_upper": "2021-08-14",
     "date:inception_lower": "2021-08-13",
     "date:inception_upper": "2021-08-13",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-08-13",
+    "edtf:cessation": "2021-08-14T00:45:49Z",
+    "edtf:inception": "2021-08-13T20:22:00Z",
     "flysfo:actual_timestamp": 1628884980,
     "flysfo:airline": "AC",
     "flysfo:date": "2021-08-13",
@@ -21,9 +23,11 @@
     "geom:latitude": 40.647171,
     "geom:longitude": -100.9996425,
     "iata:airline": "AC",
+    "icao:aircraft": "A321",
     "icao:airline": "ACA",
     "lbl:latitude": 37.61776,
     "lbl:longitude": -122.3918,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159283597,
     "sfomuseum:arrival_id": 102555091,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -48,6 +56,10 @@
       1745882335, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "162517321",
+      "swim:gufi": "KO59451600"
+    },
     "wof:country": "US",
     "wof:created": 1628957503,
     "wof:geomhash": "1a30ef2f5f82135186aeb20f0187ac62",
@@ -79,12 +91,13 @@
     ],
     "wof:id": 1746142517,
     "wof:involves": [
-      102555091, 
-      102527513, 
       1159283597, 
-      1745882411
+      1745882411, 
+      1159289411, 
+      102555091, 
+      102527513
     ],
-    "wof:lastmodified": 1628957503,
+    "wof:lastmodified": 1628957946,
     "wof:name": "AC740 (SFO-YYZ)",
     "wof:parent_id": 1745882411,
     "wof:placetype": "event",
