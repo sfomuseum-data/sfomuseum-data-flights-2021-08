@@ -2,10 +2,12 @@
   "id": 1746145777,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-08-14",
+    "date:cessation_upper": "2021-08-14",
     "date:inception_lower": "2021-08-14",
     "date:inception_upper": "2021-08-14",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-08-14",
+    "edtf:cessation": "2021-08-14T21:28:09Z",
+    "edtf:inception": "2021-08-14T20:08:00Z",
     "flysfo:actual_timestamp": 1628982000,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-08-14",
@@ -21,9 +23,11 @@
     "geom:latitude": 41.602067,
     "geom:longitude": -122.484166,
     "iata:airline": "UA",
+    "icao:aircraft": "B38M",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102532251,
@@ -34,19 +38,27 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path"
+    ],
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "162680691",
+      "swim:gufi": "KS64757700"
+    },
     "wof:country": "US",
     "wof:created": 1629043710,
     "wof:geomhash": "3af422147b92e6fa9912d38a57ea404a",
     "wof:hierarchy": [],
     "wof:id": 1746145777,
     "wof:involves": [
+      1528104575, 
       102527513, 
       102532251, 
-      1159285413, 
-      -1
+      1159285413
     ],
-    "wof:lastmodified": 1629043710,
+    "wof:lastmodified": 1629044292,
     "wof:name": "UA2732 (PDX-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",

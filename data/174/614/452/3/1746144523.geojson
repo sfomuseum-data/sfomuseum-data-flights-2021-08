@@ -2,10 +2,12 @@
   "id": 1746144523,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2021-08-14",
-    "date:inception_upper": "2021-08-14",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-08-14",
+    "date:cessation_lower": "2021-08-14",
+    "date:cessation_upper": "2021-08-14",
+    "date:inception_lower": "2021-08-15",
+    "date:inception_upper": "2021-08-15",
+    "edtf:cessation": "2021-08-14T15:17:18-07:00",
+    "edtf:inception": "2021-08-15T03:18:00Z",
     "flysfo:actual_timestamp": 1628982000,
     "flysfo:airline": "AC",
     "flysfo:date": "2021-08-14",
@@ -21,9 +23,11 @@
     "geom:latitude": 43.40566,
     "geom:longitude": -122.7750715,
     "iata:airline": "AC",
+    "icao:aircraft": "A321",
     "icao:airline": "ACA",
     "lbl:latitude": 37.61776,
     "lbl:longitude": -122.3918,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159283597,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102555307,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-approach"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -48,6 +57,10 @@
       1745882335, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "162554518",
+      "swim:gufi": "KS07657100"
+    },
     "wof:country": "US",
     "wof:created": 1629043375,
     "wof:geomhash": "e68490b7b9257816408c117e0e15f8ec",
@@ -79,12 +92,13 @@
     ],
     "wof:id": 1746144523,
     "wof:involves": [
+      1159289411, 
       102527513, 
       102555307, 
       1159283597, 
       1745882411
     ],
-    "wof:lastmodified": 1629043375,
+    "wof:lastmodified": 1629044284,
     "wof:name": "AC568 (YVR-SFO)",
     "wof:parent_id": 1745882411,
     "wof:placetype": "event",

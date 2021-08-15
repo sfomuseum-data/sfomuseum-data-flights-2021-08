@@ -2,10 +2,12 @@
   "id": 1746145705,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-08-15",
+    "date:cessation_upper": "2021-08-15",
     "date:inception_lower": "2021-08-14",
     "date:inception_upper": "2021-08-14",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-08-14",
+    "edtf:cessation": "2021-08-14T21:49:48-07:00",
+    "edtf:inception": "2021-08-14T07:17:00Z",
     "flysfo:actual_timestamp": 1628982000,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-08-14",
@@ -21,9 +23,11 @@
     "geom:latitude": 29.256470999999998,
     "geom:longitude": -139.40440999999998,
     "iata:airline": "UA",
+    "icao:aircraft": "B39M",
     "icao:airline": "UAL",
     "lbl:latitude": 37.619451,
     "lbl:longitude": -122.384404,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102532929,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-approach"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -48,6 +57,10 @@
       1745882233, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "162559850",
+      "swim:gufi": "KO36795700"
+    },
     "wof:country": "US",
     "wof:created": 1629043691,
     "wof:geomhash": "e4ae4c60ed0a76df38dbcfaaa5dd6a55",
@@ -82,9 +95,10 @@
       102527513, 
       102532929, 
       1159285413, 
-      1745882315
+      1745882315, 
+      1528104577
     ],
-    "wof:lastmodified": 1629043691,
+    "wof:lastmodified": 1629044292,
     "wof:name": "UA1639 (OGG-SFO)",
     "wof:parent_id": 1745882315,
     "wof:placetype": "event",
