@@ -2,10 +2,12 @@
   "id": 1746150319,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-08-16",
+    "date:cessation_upper": "2021-08-16",
     "date:inception_lower": "2021-08-15",
     "date:inception_upper": "2021-08-15",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-08-15",
+    "edtf:cessation": "2021-08-16T08:25:19Z",
+    "edtf:inception": "2021-08-15T18:15:00Z",
     "flysfo:actual_timestamp": 1629068400,
     "flysfo:airline": "AI",
     "flysfo:date": "2021-08-15",
@@ -34,6 +36,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -48,6 +54,9 @@
       1745882335, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "162682900"
+    },
     "wof:country": "US",
     "wof:created": 1629130394,
     "wof:geomhash": "5685f56014cf853d095c4b0f2d5ea6d9",
@@ -84,7 +93,7 @@
       1159283649, 
       1745882419
     ],
-    "wof:lastmodified": 1629130394,
+    "wof:lastmodified": 1629130843,
     "wof:name": "AI174 (SFO-DEL)",
     "wof:parent_id": 1745882419,
     "wof:placetype": "event",
