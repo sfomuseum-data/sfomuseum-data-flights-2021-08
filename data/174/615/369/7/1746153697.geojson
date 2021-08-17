@@ -2,10 +2,12 @@
   "id": 1746153697,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-08-17",
+    "date:cessation_upper": "2021-08-17",
     "date:inception_lower": "2021-08-16",
     "date:inception_upper": "2021-08-16",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-08-16",
+    "edtf:cessation": "2021-08-17T04:39:00Z",
+    "edtf:inception": "2021-08-16T23:24:00Z",
     "flysfo:actual_timestamp": 1629175680,
     "flysfo:airline": "B6",
     "flysfo:date": "2021-08-16",
@@ -21,9 +23,11 @@
     "geom:latitude": 29.3291535,
     "geom:longitude": -104.6218995,
     "iata:airline": "B6",
+    "icao:aircraft": "A320",
     "icao:airline": "JBU",
     "lbl:latitude": 37.611664,
     "lbl:longitude": -122.390495,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159284583,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102536223,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-approach"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -48,6 +57,9 @@
       1745882335, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "162789614"
+    },
     "wof:country": "US",
     "wof:created": 1629216391,
     "wof:geomhash": "c1b858affbd20b2c728ba535a4ce178e",
@@ -79,12 +91,13 @@
     ],
     "wof:id": 1746153697,
     "wof:involves": [
-      102527513, 
-      102536223, 
       1159284583, 
-      1745882399
+      1745882399, 
+      1159292085, 
+      102527513, 
+      102536223
     ],
-    "wof:lastmodified": 1629216391,
+    "wof:lastmodified": 1629217108,
     "wof:name": "B62241 (CUN-SFO)",
     "wof:parent_id": 1745882399,
     "wof:placetype": "event",

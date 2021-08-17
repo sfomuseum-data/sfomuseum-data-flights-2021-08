@@ -2,10 +2,12 @@
   "id": 1746155635,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2021-08-16",
-    "date:inception_upper": "2021-08-16",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-08-16",
+    "date:cessation_lower": "2021-08-17",
+    "date:cessation_upper": "2021-08-17",
+    "date:inception_lower": "2021-08-17",
+    "date:inception_upper": "2021-08-17",
+    "edtf:cessation": "2021-08-17T12:35:18Z",
+    "edtf:inception": "2021-08-17T07:33:00Z",
     "flysfo:actual_timestamp": 1629154800,
     "flysfo:airline": "B6",
     "flysfo:date": "2021-08-16",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.776171500000004,
     "geom:longitude": -97.52902549999999,
     "iata:airline": "B6",
+    "icao:aircraft": "A320",
     "icao:airline": "JBU",
     "lbl:latitude": 37.611664,
     "lbl:longitude": -122.390495,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159284583,
     "sfomuseum:arrival_id": 102532701,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-takeoff"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -48,6 +57,9 @@
       1745882335, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "162724493"
+    },
     "wof:country": "US",
     "wof:created": 1629216891,
     "wof:geomhash": "0643ebfe04300154e23bafd48af1076e",
@@ -79,12 +91,13 @@
     ],
     "wof:id": 1746155635,
     "wof:involves": [
-      102532701, 
-      102527513, 
       1159284583, 
-      1745882399
+      1745882399, 
+      1159292085, 
+      102532701, 
+      102527513
     ],
-    "wof:lastmodified": 1629216891,
+    "wof:lastmodified": 1629217109,
     "wof:name": "B62844 (SFO-BDL)",
     "wof:parent_id": 1745882399,
     "wof:placetype": "event",

@@ -2,10 +2,12 @@
   "id": 1746154153,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-08-16",
+    "date:cessation_upper": "2021-08-16",
     "date:inception_lower": "2021-08-16",
     "date:inception_upper": "2021-08-16",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-08-16",
+    "edtf:cessation": "2021-08-16T02:29:43-07:00",
+    "edtf:inception": "2021-08-16T15:11:00Z",
     "flysfo:actual_timestamp": 1629131640,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-08-16",
@@ -21,9 +23,11 @@
     "geom:latitude": 41.602067,
     "geom:longitude": -122.484166,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.619531,
     "lbl:longitude": -122.384262,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102532251,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-approach"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -48,6 +57,10 @@
       1745882233, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "162745091",
+      "swim:gufi": "KS43073200"
+    },
     "wof:country": "US",
     "wof:created": 1629216504,
     "wof:geomhash": "3af422147b92e6fa9912d38a57ea404a",
@@ -79,12 +92,13 @@
     ],
     "wof:id": 1746154153,
     "wof:involves": [
+      1159289407, 
       102527513, 
       102532251, 
       1159285413, 
       1745882319
     ],
-    "wof:lastmodified": 1629216504,
+    "wof:lastmodified": 1629217112,
     "wof:name": "UA1830 (PDX-SFO)",
     "wof:parent_id": 1745882319,
     "wof:placetype": "event",

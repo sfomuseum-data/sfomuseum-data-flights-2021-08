@@ -2,10 +2,12 @@
   "id": 1746156163,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-08-16",
+    "date:cessation_upper": "2021-08-16",
     "date:inception_lower": "2021-08-16",
     "date:inception_upper": "2021-08-16",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-08-16",
+    "edtf:cessation": "2021-08-16T22:53:00Z",
+    "edtf:inception": "2021-08-16T18:04:00Z",
     "flysfo:actual_timestamp": 1629136020,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-08-16",
@@ -21,9 +23,11 @@
     "geom:latitude": 32.795441,
     "geom:longitude": -102.4509355,
     "iata:airline": "UA",
+    "icao:aircraft": "B739",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618486,
     "lbl:longitude": -122.384457,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533243,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -48,6 +56,10 @@
       1745882233, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "162762080",
+      "swim:gufi": "KO55115200"
+    },
     "wof:country": "US",
     "wof:created": 1629217021,
     "wof:geomhash": "eed3ad030b4c80153105b635669626b5",
@@ -79,12 +91,13 @@
     ],
     "wof:id": 1746156163,
     "wof:involves": [
+      1377564285, 
       102533243, 
       102527513, 
       1159285413, 
       1745882303
     ],
-    "wof:lastmodified": 1629217021,
+    "wof:lastmodified": 1629217109,
     "wof:name": "UA2670 (SFO-TPA)",
     "wof:parent_id": 1745882303,
     "wof:placetype": "event",
