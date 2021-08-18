@@ -2,10 +2,12 @@
   "id": 1746157195,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-08-17",
+    "date:cessation_upper": "2021-08-17",
     "date:inception_lower": "2021-08-17",
     "date:inception_upper": "2021-08-17",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-08-17",
+    "edtf:cessation": "2021-08-17T07:02:22Z",
+    "edtf:inception": "2021-08-17T05:59:00Z",
     "flysfo:actual_timestamp": 1629183900,
     "flysfo:airline": "AS",
     "flysfo:date": "2021-08-17",
@@ -48,6 +50,9 @@
       1745882085, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "162803453"
+    },
     "wof:country": "US",
     "wof:created": 1629302735,
     "wof:geomhash": "d1d4873ced1d6ea3128e45b0b2070718",
@@ -84,7 +89,7 @@
       1159283813, 
       1745882107
     ],
-    "wof:lastmodified": 1629302735,
+    "wof:lastmodified": 1629303588,
     "wof:name": "AS376 (SAN-SFO)",
     "wof:parent_id": 1745882107,
     "wof:placetype": "event",

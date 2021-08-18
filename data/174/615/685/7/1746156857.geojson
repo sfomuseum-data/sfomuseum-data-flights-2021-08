@@ -2,10 +2,12 @@
   "id": 1746156857,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-08-18",
+    "date:cessation_upper": "2021-08-18",
     "date:inception_lower": "2021-08-17",
     "date:inception_upper": "2021-08-17",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-08-17",
+    "edtf:cessation": "2021-08-18T04:09:44Z",
+    "edtf:inception": "2021-08-17T22:30:00Z",
     "flysfo:actual_timestamp": 1629241200,
     "flysfo:airline": "AC",
     "flysfo:date": "2021-08-17",
@@ -21,6 +23,7 @@
     "geom:latitude": 41.539997,
     "geom:longitude": -98.057846,
     "iata:airline": "AC",
+    "icao:aircraft": "BCS3",
     "icao:airline": "ACA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
@@ -34,7 +37,15 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-approach"
+    ],
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "162866664"
+    },
     "wof:country": "US",
     "wof:created": 1629302636,
     "wof:geomhash": "d6fced31e2f30d79d54c9b38b6916cc7",
@@ -46,7 +57,7 @@
       1159283597, 
       -1
     ],
-    "wof:lastmodified": 1629302636,
+    "wof:lastmodified": 1629303587,
     "wof:name": "AC763 (YUL-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",

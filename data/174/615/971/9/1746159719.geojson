@@ -2,10 +2,12 @@
   "id": 1746159719,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-08-17",
+    "date:cessation_upper": "2021-08-17",
     "date:inception_lower": "2021-08-17",
     "date:inception_upper": "2021-08-17",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-08-17",
+    "edtf:cessation": "2021-08-17T21:47:00Z",
+    "edtf:inception": "2021-08-17T20:55:00Z",
     "flysfo:actual_timestamp": 1629241200,
     "flysfo:airline": "WN",
     "flysfo:date": "2021-08-17",
@@ -34,6 +36,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -48,6 +53,9 @@
       1745882137, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "162852887"
+    },
     "wof:country": "US",
     "wof:created": 1629303408,
     "wof:geomhash": "5b5841a3ebf3c57d9843115edfb8ee6b",
@@ -84,7 +92,7 @@
       1159285591, 
       1745882151
     ],
-    "wof:lastmodified": 1629303408,
+    "wof:lastmodified": 1629303598,
     "wof:name": "WN4674 (SFO-BUR)",
     "wof:parent_id": 1745882151,
     "wof:placetype": "event",
