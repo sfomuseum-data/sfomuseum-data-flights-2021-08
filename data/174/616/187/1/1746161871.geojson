@@ -2,10 +2,12 @@
   "id": 1746161871,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-08-18",
+    "date:cessation_upper": "2021-08-18",
     "date:inception_lower": "2021-08-18",
     "date:inception_upper": "2021-08-18",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-08-18",
+    "edtf:cessation": "2021-08-18T04:06:11-07:00",
+    "edtf:inception": "2021-08-18T15:56:00Z",
     "flysfo:actual_timestamp": 1629310920,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-08-18",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.7414645,
     "geom:longitude": -113.521581,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618486,
     "lbl:longitude": -122.384457,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102531189,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-approach"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -48,6 +57,10 @@
       1745882233, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "162915058",
+      "swim:gufi": "KD43028400"
+    },
     "wof:country": "US",
     "wof:created": 1629389428,
     "wof:geomhash": "736fe0d2ebd38878be6950e82908a686",
@@ -79,12 +92,13 @@
     ],
     "wof:id": 1746161871,
     "wof:involves": [
-      102527513, 
       102531189, 
       1159285413, 
-      1745882303
+      1745882303, 
+      1159289407, 
+      102527513
     ],
-    "wof:lastmodified": 1629389428,
+    "wof:lastmodified": 1629390048,
     "wof:name": "UA441 (DEN-SFO)",
     "wof:parent_id": 1745882303,
     "wof:placetype": "event",
