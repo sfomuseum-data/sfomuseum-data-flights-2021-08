@@ -2,10 +2,12 @@
   "id": 1746174787,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-08-21",
+    "date:cessation_upper": "2021-08-21",
     "date:inception_lower": "2021-08-21",
     "date:inception_upper": "2021-08-21",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-08-21",
+    "edtf:cessation": "2021-08-21T23:07:33Z",
+    "edtf:inception": "2021-08-21T18:14:00Z",
     "flysfo:actual_timestamp": 1629568500,
     "flysfo:airline": "AS",
     "flysfo:date": "2021-08-21",
@@ -21,9 +23,11 @@
     "geom:latitude": 49.395798,
     "geom:longitude": -136.169672,
     "iata:airline": "AS",
+    "icao:aircraft": "B739",
     "icao:airline": "ASA",
     "lbl:latitude": 37.61705,
     "lbl:longitude": -122.380838,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102531979,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-takeoff"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -48,6 +57,9 @@
       1745882085, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "163194211"
+    },
     "wof:country": "US",
     "wof:created": 1629648732,
     "wof:geomhash": "24c5d8bcd340273688237ae435bbe348",
@@ -79,12 +91,13 @@
     ],
     "wof:id": 1746174787,
     "wof:involves": [
+      1377564285, 
       102531979, 
       102527513, 
       1159283813, 
       1745882103
     ],
-    "wof:lastmodified": 1629648732,
+    "wof:lastmodified": 1629649060,
     "wof:name": "AS99 (SFO-ANC)",
     "wof:parent_id": 1745882103,
     "wof:placetype": "event",
