@@ -2,10 +2,12 @@
   "id": 1746189911,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2021-08-25",
-    "date:inception_upper": "2021-08-25",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-08-25",
+    "date:cessation_lower": "2021-08-26",
+    "date:cessation_upper": "2021-08-26",
+    "date:inception_lower": "2021-08-26",
+    "date:inception_upper": "2021-08-26",
+    "edtf:cessation": "2021-08-26T02:43:28Z",
+    "edtf:inception": "2021-08-26T00:52:00Z",
     "flysfo:actual_timestamp": 1629932400,
     "flysfo:airline": "AC",
     "flysfo:date": "2021-08-25",
@@ -21,9 +23,11 @@
     "geom:latitude": 43.40566,
     "geom:longitude": -122.7750715,
     "iata:airline": "AC",
+    "icao:aircraft": "B38M",
     "icao:airline": "ACA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159283597,
     "sfomuseum:arrival_id": 102555307,
     "sfomuseum:departure_id": 102527513,
@@ -34,19 +38,26 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path"
+    ],
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "163486578"
+    },
     "wof:country": "US",
     "wof:created": 1629994289,
     "wof:geomhash": "af4ccf784d832b160f78d13fe8b8589a",
     "wof:hierarchy": [],
     "wof:id": 1746189911,
     "wof:involves": [
-      102555307, 
       102527513, 
       1159283597, 
-      -1
+      1528104575, 
+      102555307
     ],
-    "wof:lastmodified": 1629994289,
+    "wof:lastmodified": 1629994749,
     "wof:name": "AC563 (SFO-YVR)",
     "wof:parent_id": -1,
     "wof:placetype": "event",

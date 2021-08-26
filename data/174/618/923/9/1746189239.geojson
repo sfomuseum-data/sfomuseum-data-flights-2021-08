@@ -2,10 +2,12 @@
   "id": 1746189239,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-08-25",
+    "date:cessation_upper": "2021-08-25",
     "date:inception_lower": "2021-08-25",
     "date:inception_upper": "2021-08-25",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-08-25",
+    "edtf:cessation": "2021-08-25T00:29:58-07:00",
+    "edtf:inception": "2021-08-25T13:47:00Z",
     "flysfo:actual_timestamp": 1629932400,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-08-25",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.022982,
     "geom:longitude": -121.104038,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618486,
     "lbl:longitude": -122.384457,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102527337,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-approach"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -48,6 +57,10 @@
       1745882233, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "163519795",
+      "swim:gufi": "KL47121400"
+    },
     "wof:country": "US",
     "wof:created": 1629994120,
     "wof:geomhash": "aae625247f3652ef8a50cae9f49d2791",
@@ -79,12 +92,13 @@
     ],
     "wof:id": 1746189239,
     "wof:involves": [
+      1159292085, 
       102527513, 
       102527337, 
       1159285413, 
       1745882303
     ],
-    "wof:lastmodified": 1629994120,
+    "wof:lastmodified": 1629994744,
     "wof:name": "UA1218 (SBA-SFO)",
     "wof:parent_id": 1745882303,
     "wof:placetype": "event",
