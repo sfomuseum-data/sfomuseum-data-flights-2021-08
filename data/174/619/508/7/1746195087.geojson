@@ -2,10 +2,12 @@
   "id": 1746195087,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-08-27",
+    "date:cessation_upper": "2021-08-27",
     "date:inception_lower": "2021-08-26",
     "date:inception_upper": "2021-08-26",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-08-26",
+    "edtf:cessation": "2021-08-27T10:14:44Z",
+    "edtf:inception": "2021-08-26T10:00:37-07:00",
     "flysfo:actual_timestamp": 1630021020,
     "flysfo:airline": "TP",
     "flysfo:date": "2021-08-26",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.195417,
     "geom:longitude": -65.753267,
     "iata:airline": "TP",
+    "icao:aircraft": "A339",
     "icao:airline": "TAP",
     "lbl:latitude": 37.618209,
     "lbl:longitude": -122.391665,
+    "sfomuseum:aircraft_id": 1393786509,
     "sfomuseum:airline_id": 1159285271,
     "sfomuseum:arrival_id": 102535643,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-takeoff"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -48,6 +57,9 @@
       1745882335, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "163688007"
+    },
     "wof:country": "US",
     "wof:created": 1630081027,
     "wof:geomhash": "d52bb0a5cfa06eebb6a938b29d78a44d",
@@ -79,12 +91,13 @@
     ],
     "wof:id": 1746195087,
     "wof:involves": [
+      1745882417, 
+      1393786509, 
       102535643, 
       102527513, 
-      1159285271, 
-      1745882417
+      1159285271
     ],
-    "wof:lastmodified": 1630081027,
+    "wof:lastmodified": 1630081218,
     "wof:name": "TP236 (SFO-LIS)",
     "wof:parent_id": 1745882417,
     "wof:placetype": "event",

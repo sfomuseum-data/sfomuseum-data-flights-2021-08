@@ -2,10 +2,12 @@
   "id": 1746193241,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-08-26",
+    "date:cessation_upper": "2021-08-26",
     "date:inception_lower": "2021-08-26",
     "date:inception_upper": "2021-08-26",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-08-26",
+    "edtf:cessation": "2021-08-26T18:22:44Z",
+    "edtf:inception": "2021-08-26T14:31:00Z",
     "flysfo:actual_timestamp": 1630018800,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-08-26",
@@ -21,9 +23,11 @@
     "geom:latitude": 40.375733499999996,
     "geom:longitude": -105.8545915,
     "iata:airline": "UA",
+    "icao:aircraft": "B739",
     "icao:airline": "UAL",
     "lbl:latitude": 37.619425,
     "lbl:longitude": -122.384028,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102525659,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -48,6 +56,10 @@
       1745882233, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "163630947",
+      "swim:gufi": "KG47308500"
+    },
     "wof:country": "US",
     "wof:created": 1630080557,
     "wof:geomhash": "d3e907c10ce5b4e644ffb36af3990e8c",
@@ -79,12 +91,13 @@
     ],
     "wof:id": 1746193241,
     "wof:involves": [
+      1377564285, 
       102527513, 
       102525659, 
       1159285413, 
       1745882321
     ],
-    "wof:lastmodified": 1630080557,
+    "wof:lastmodified": 1630081213,
     "wof:name": "UA1768 (MSN-SFO)",
     "wof:parent_id": 1745882321,
     "wof:placetype": "event",
