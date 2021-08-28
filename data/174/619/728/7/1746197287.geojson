@@ -2,10 +2,12 @@
   "id": 1746197287,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-08-27",
+    "date:cessation_upper": "2021-08-27",
     "date:inception_lower": "2021-08-27",
     "date:inception_upper": "2021-08-27",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-08-27",
+    "edtf:cessation": "2021-08-27T13:07:41-07:00",
+    "edtf:inception": "2021-08-27T23:00:00Z",
     "flysfo:actual_timestamp": 1630120320,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-08-27",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.8721885,
     "geom:longitude": -104.5237975,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618486,
     "lbl:longitude": -122.384457,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102525035,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-approach"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -48,6 +57,10 @@
       1745882233, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "163790090",
+      "swim:gufi": "KM71472600"
+    },
     "wof:country": "US",
     "wof:created": 1630166959,
     "wof:geomhash": "462e561a68f133085fb895c49eddc748",
@@ -82,9 +95,10 @@
       102527513, 
       102525035, 
       1159285413, 
-      1745882303
+      1745882303, 
+      1159289407
     ],
-    "wof:lastmodified": 1630166959,
+    "wof:lastmodified": 1630167618,
     "wof:name": "UA1912 (BNA-SFO)",
     "wof:parent_id": 1745882303,
     "wof:placetype": "event",

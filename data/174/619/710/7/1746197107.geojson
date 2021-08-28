@@ -2,10 +2,12 @@
   "id": 1746197107,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2021-08-27",
-    "date:inception_upper": "2021-08-27",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-08-27",
+    "date:cessation_lower": "2021-08-27",
+    "date:cessation_upper": "2021-08-27",
+    "date:inception_lower": "2021-08-28",
+    "date:inception_upper": "2021-08-28",
+    "edtf:cessation": "2021-08-27T06:28:00Z",
+    "edtf:inception": "2021-08-28T05:12:00Z",
     "flysfo:actual_timestamp": 1630131720,
     "flysfo:airline": "WN",
     "flysfo:date": "2021-08-27",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.8494965,
     "geom:longitude": -118.7636915,
     "iata:airline": "WN",
+    "icao:aircraft": "B738",
     "icao:airline": "SWA",
     "lbl:latitude": 37.610999204937734,
     "lbl:longitude": -122.3855542651668,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102527209,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-approach"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -48,6 +57,9 @@
       1745882137, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "163707342"
+    },
     "wof:country": "US",
     "wof:created": 1630166912,
     "wof:geomhash": "fcf5095e8d1a14d003993bc5070a7f0f",
@@ -79,12 +91,13 @@
     ],
     "wof:id": 1746197107,
     "wof:involves": [
+      1745882159, 
+      1159289871, 
       102527513, 
       102527209, 
-      1159285591, 
-      1745882159
+      1159285591
     ],
-    "wof:lastmodified": 1630166912,
+    "wof:lastmodified": 1630167617,
     "wof:name": "WN2231 (LAS-SFO)",
     "wof:parent_id": 1745882159,
     "wof:placetype": "event",
