@@ -2,10 +2,12 @@
   "id": 1746202031,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-08-29",
+    "date:cessation_upper": "2021-08-29",
     "date:inception_lower": "2021-08-28",
     "date:inception_upper": "2021-08-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-08-28",
+    "edtf:cessation": "2021-08-29T10:58:31Z",
+    "edtf:inception": "2021-08-28T23:37:00Z",
     "flysfo:actual_timestamp": 1630191600,
     "flysfo:airline": "OZ",
     "flysfo:date": "2021-08-28",
@@ -34,7 +36,14 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path"
+    ],
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "163947014"
+    },
     "wof:country": "US",
     "wof:created": 1630253430,
     "wof:geomhash": "76fab8ba90cc172f777e745d124625d2",
@@ -46,7 +55,7 @@
       1159283917, 
       -1
     ],
-    "wof:lastmodified": 1630253430,
+    "wof:lastmodified": 1630253918,
     "wof:name": "OZ283 (SFO-ICN)",
     "wof:parent_id": -1,
     "wof:placetype": "event",

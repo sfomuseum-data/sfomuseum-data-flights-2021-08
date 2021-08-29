@@ -2,10 +2,12 @@
   "id": 1746202885,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-08-28",
+    "date:cessation_upper": "2021-08-28",
     "date:inception_lower": "2021-08-28",
     "date:inception_upper": "2021-08-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-08-28",
+    "edtf:cessation": "2021-08-28T23:21:13Z",
+    "edtf:inception": "2021-08-28T18:29:00Z",
     "flysfo:actual_timestamp": 1630174020,
     "flysfo:airline": "AS",
     "flysfo:date": "2021-08-28",
@@ -21,9 +23,11 @@
     "geom:latitude": 29.256470999999998,
     "geom:longitude": -139.40440999999998,
     "iata:airline": "AS",
+    "icao:aircraft": "B738",
     "icao:airline": "ASA",
     "lbl:latitude": 37.616838,
     "lbl:longitude": -122.380969,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102532929,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path", 
+      "swim-takeoff"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -79,12 +87,13 @@
     ],
     "wof:id": 1746202885,
     "wof:involves": [
-      102532929, 
       102527513, 
       1159283813, 
-      1745882101
+      1745882101, 
+      1159289871, 
+      102532929
     ],
-    "wof:lastmodified": 1630253585,
+    "wof:lastmodified": 1630253923,
     "wof:name": "AS743 (SFO-OGG)",
     "wof:parent_id": 1745882101,
     "wof:placetype": "event",

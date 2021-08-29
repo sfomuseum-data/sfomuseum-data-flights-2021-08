@@ -2,10 +2,12 @@
   "id": 1746203525,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-08-28",
+    "date:cessation_upper": "2021-08-28",
     "date:inception_lower": "2021-08-28",
     "date:inception_upper": "2021-08-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-08-28",
+    "edtf:cessation": "2021-08-28T23:40:00Z",
+    "edtf:inception": "2021-08-28T22:41:00Z",
     "flysfo:actual_timestamp": 1630191600,
     "flysfo:airline": "B6",
     "flysfo:date": "2021-08-28",
@@ -34,6 +36,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -48,6 +53,9 @@
       1745882137, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "163884242"
+    },
     "wof:country": "US",
     "wof:created": 1630253685,
     "wof:geomhash": "602be2a828e3460cadf44be5b1c2e36b",
@@ -84,7 +92,7 @@
       1159284583, 
       1745882141
     ],
-    "wof:lastmodified": 1630253685,
+    "wof:lastmodified": 1630253923,
     "wof:name": "B6335 (SFO-LAX)",
     "wof:parent_id": 1745882141,
     "wof:placetype": "event",

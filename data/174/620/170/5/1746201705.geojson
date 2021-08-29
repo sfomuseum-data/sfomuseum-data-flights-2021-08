@@ -2,10 +2,12 @@
   "id": 1746201705,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-08-28",
+    "date:cessation_upper": "2021-08-28",
     "date:inception_lower": "2021-08-28",
     "date:inception_upper": "2021-08-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-08-28",
+    "edtf:cessation": "2021-08-28T22:57:00Z",
+    "edtf:inception": "2021-08-28T21:01:00Z",
     "flysfo:actual_timestamp": 1630191600,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-08-28",
@@ -21,9 +23,11 @@
     "geom:latitude": 41.6967075,
     "geom:longitude": -116.76460499999999,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618102,
     "lbl:longitude": -122.38769,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102530815,
@@ -34,6 +38,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -48,6 +55,10 @@
       1745882233, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "163878084",
+      "swim:gufi": "KU61324700"
+    },
     "wof:country": "US",
     "wof:created": 1630253345,
     "wof:geomhash": "acf2ad4ec949b4135a187e5a7cb03262",
@@ -79,12 +90,13 @@
     ],
     "wof:id": 1746201705,
     "wof:involves": [
+      1159289407, 
       102527513, 
       102530815, 
       1159285413, 
       1745882251
     ],
-    "wof:lastmodified": 1630253345,
+    "wof:lastmodified": 1630253915,
     "wof:name": "UA334 (BZN-SFO)",
     "wof:parent_id": 1745882251,
     "wof:placetype": "event",
