@@ -2,10 +2,12 @@
   "id": 1746267047,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-08-30",
+    "date:cessation_upper": "2021-08-30",
     "date:inception_lower": "2021-08-30",
     "date:inception_upper": "2021-08-30",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-08-30",
+    "edtf:cessation": "2021-08-30T15:26:18Z",
+    "edtf:inception": "2021-08-30T06:12:31Z",
     "flysfo:actual_timestamp": 1630337640,
     "flysfo:airline": "JL",
     "flysfo:date": "2021-08-30",
@@ -48,6 +50,9 @@
       1745882335, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "164056345"
+    },
     "wof:country": "US",
     "wof:created": 1630426063,
     "wof:geomhash": "99c2bdbe61e95eb26a51b43b0c172358",
@@ -84,7 +89,7 @@
       1159284563, 
       1745882355
     ],
-    "wof:lastmodified": 1630426063,
+    "wof:lastmodified": 1630426862,
     "wof:name": "JL6712 (HND-SFO)",
     "wof:parent_id": 1745882355,
     "wof:placetype": "event",

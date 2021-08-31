@@ -2,10 +2,12 @@
   "id": 1746269557,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-08-31",
+    "date:cessation_upper": "2021-08-31",
     "date:inception_lower": "2021-08-30",
     "date:inception_upper": "2021-08-30",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-08-30",
+    "edtf:cessation": "2021-08-31T00:14:00Z",
+    "edtf:inception": "2021-08-30T06:50:42-07:00",
     "flysfo:actual_timestamp": 1630364400,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-08-30",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.800514,
     "geom:longitude": -105.1326535,
     "iata:airline": "UA",
+    "icao:aircraft": "B752",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533631,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-takeoff"
+    ],
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "164048009",
+      "swim:gufi": "KO65964200"
+    },
     "wof:country": "US",
     "wof:created": 1630426732,
     "wof:geomhash": "7a75cc81bf790964b92a4927d3978f50",
@@ -44,9 +57,9 @@
       102533631, 
       102527513, 
       1159285413, 
-      -1
+      1159289939
     ],
-    "wof:lastmodified": 1630426732,
+    "wof:lastmodified": 1630426876,
     "wof:name": "UA3021 (SFO-ORD)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
