@@ -2,10 +2,12 @@
   "id": 1746273911,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-08-31",
+    "date:cessation_upper": "2021-08-31",
     "date:inception_lower": "2021-08-31",
     "date:inception_upper": "2021-08-31",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-08-31",
+    "edtf:cessation": "2021-08-31T03:52:48-07:00",
+    "edtf:inception": "2021-08-31T17:03:00Z",
     "flysfo:actual_timestamp": 1630450800,
     "flysfo:airline": "WN",
     "flysfo:date": "2021-08-31",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.780291500000004,
     "geom:longitude": -120.38022649999999,
     "iata:airline": "WN",
+    "icao:aircraft": "B737",
     "icao:airline": "SWA",
     "lbl:latitude": 37.61233689792174,
     "lbl:longitude": -122.38465899796505,
+    "sfomuseum:aircraft_id": 1159289869,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533795,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path", 
+      "swim-approach"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -82,9 +90,10 @@
       102527513, 
       102533795, 
       1159285591, 
-      1745882151
+      1745882151, 
+      1159289869
     ],
-    "wof:lastmodified": 1630512521,
+    "wof:lastmodified": 1630513180,
     "wof:name": "WN4645 (LAX-SFO)",
     "wof:parent_id": 1745882151,
     "wof:placetype": "event",

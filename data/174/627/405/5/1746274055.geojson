@@ -2,10 +2,12 @@
   "id": 1746274055,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-08-31",
+    "date:cessation_upper": "2021-08-31",
     "date:inception_lower": "2021-08-31",
     "date:inception_upper": "2021-08-31",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-08-31",
+    "edtf:cessation": "2021-08-31T13:15:00Z",
+    "edtf:inception": "2021-08-31T09:09:00Z",
     "flysfo:actual_timestamp": 1630415940,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-08-31",
@@ -21,9 +23,11 @@
     "geom:latitude": 49.395798,
     "geom:longitude": -136.169672,
     "iata:airline": "UA",
+    "icao:aircraft": "B739",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620058,
     "lbl:longitude": -122.38824,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102531979,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -48,6 +56,10 @@
       1745882233, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "164059850",
+      "swim:gufi": "KS40615300"
+    },
     "wof:country": "US",
     "wof:created": 1630512557,
     "wof:geomhash": "40576486fbb454d3a66da49d62a0ae33",
@@ -79,12 +91,13 @@
     ],
     "wof:id": 1746274055,
     "wof:involves": [
+      1377564285, 
       102527513, 
       102531979, 
       1159285413, 
       1745882277
     ],
-    "wof:lastmodified": 1630512557,
+    "wof:lastmodified": 1630513181,
     "wof:name": "UA1571 (ANC-SFO)",
     "wof:parent_id": 1745882277,
     "wof:placetype": "event",
