@@ -17,9 +17,9 @@
     "flysfo:scheduled_timestamp": 1630010100,
     "flysfo:timestamp": 1630018800,
     "geom:area": 0,
-    "geom:bbox": "-122.370943,0.000000,0.000000,37.617990",
-    "geom:latitude": 18.808995,
-    "geom:longitude": -61.1854715,
+    "geom:bbox": "-122.370943,25.272796,51.607761,37.617990",
+    "geom:latitude": 31.445393,
+    "geom:longitude": -35.381591,
     "iata:airline": "QR",
     "icao:airline": "QTR",
     "lbl:latitude": 37.61799,
@@ -29,7 +29,7 @@
     "sfomuseum:departure_id": 1729749565,
     "sfomuseum:flight_id": "20210826-A-QTR-737",
     "sfomuseum:flight_number": [
-      "QTR737", 
+      "QTR737",
       "QR737"
     ],
     "sfomuseum:placetype": "flight",
@@ -37,16 +37,20 @@
     "wof:belongsto": [],
     "wof:country": "US",
     "wof:created": 1630080478,
-    "wof:geomhash": "39d9eba3dc111bfc07b45f612540f4b0",
-    "wof:hierarchy": [],
+    "wof:geomhash": "90bd700bbb49763568c2a26183b9158d",
+    "wof:hierarchy": [
+      {
+        "event_id": 1746192941
+      }
+    ],
     "wof:id": 1746192941,
     "wof:involves": [
-      102527513, 
-      1729749565, 
-      1159286153, 
+      102527513,
+      1729749565,
+      1159286153,
       -1
     ],
-    "wof:lastmodified": 1630080478,
+    "wof:lastmodified": 1651261618,
     "wof:name": "QR737 (DOH-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
@@ -55,10 +59,10 @@
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    0, 
-    0, 
+    -122.370943,
+    25.272796,
+    51.607761,
     37.61799
   ],
-  "geometry": {"coordinates":[[0,0],[-122.370943,37.61799]],"type":"MultiPoint"}
+  "geometry": {"coordinates":[[51.607761,25.272796],[-122.370943,37.61799]],"type":"MultiPoint"}
 }

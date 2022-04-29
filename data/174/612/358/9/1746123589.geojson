@@ -19,35 +19,35 @@
     "flysfo:scheduled_timestamp": 1628405700,
     "flysfo:timestamp": 1628415000,
     "geom:area": 0,
-    "geom:bbox": "-122.370943,0.000000,0.000000,37.617990",
-    "geom:latitude": 18.808995,
-    "geom:longitude": -61.1854715,
+    "geom:bbox": "-122.370943,10.314233,123.979597,37.617990",
+    "geom:latitude": 23.9661115,
+    "geom:longitude": 0.8043270000000007,
     "iata:airline": "PR",
     "icao:airline": "PAL",
     "lbl:latitude": 37.611495,
     "lbl:longitude": -122.389961,
     "sfomuseum:airline_id": 1159285015,
-    "sfomuseum:arrival_id": -1,
+    "sfomuseum:arrival_id": 102553239,
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210808-D-PAL-5105",
     "sfomuseum:flight_number": [
-      "PAL5105", 
+      "PAL5105",
       "PR5105"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "wof:belongsto": [
-      1745882083, 
-      102527513, 
-      1745882337, 
-      102191575, 
-      85633793, 
-      102087579, 
-      85922583, 
-      554784711, 
-      85688637, 
-      1745882359, 
-      1745882335, 
+      1745882083,
+      102527513,
+      1745882337,
+      102191575,
+      85633793,
+      102087579,
+      85922583,
+      554784711,
+      85688637,
+      1745882359,
+      1745882335,
       102085387
     ],
     "wof:concordances": {
@@ -55,7 +55,7 @@
     },
     "wof:country": "US",
     "wof:created": 1628525780,
-    "wof:geomhash": "f7b726ae54aa9222cfb9d243d2e793d0",
+    "wof:geomhash": "4914421652a0a7ef306979f3e19f6636",
     "wof:hierarchy": [
       {
         "building_id": 1745882083,
@@ -64,12 +64,13 @@
         "continent_id": 102191575,
         "country_id": 85633793,
         "county_id": 102087579,
+        "event_id": 1746123589,
         "locality_id": 85922583,
         "postalcode_id": 554784711,
         "region_id": 85688637,
         "venue_id": 1745882359,
         "wing_id": 1745882335
-      }, 
+      },
       {
         "building_id": 1745882083,
         "campus_id": 102527513,
@@ -77,6 +78,7 @@
         "continent_id": 102191575,
         "country_id": 85633793,
         "county_id": 102085387,
+        "event_id": 1746123589,
         "region_id": 85688637,
         "venue_id": 1745882359,
         "wing_id": 1745882335
@@ -84,12 +86,12 @@
     ],
     "wof:id": 1746123589,
     "wof:involves": [
-      -1, 
-      102527513, 
-      1159285015, 
+      -1,
+      102527513,
+      1159285015,
       1745882359
     ],
-    "wof:lastmodified": 1628525978,
+    "wof:lastmodified": 1651261622,
     "wof:name": "PR5105 (SFO-CEB)",
     "wof:parent_id": 1745882359,
     "wof:placetype": "event",
@@ -98,10 +100,10 @@
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    0, 
-    0, 
+    -122.370943,
+    10.314233,
+    123.979597,
     37.61799
   ],
-  "geometry": {"coordinates":[[-122.370943,37.61799],[0,0]],"type":"MultiPoint"}
+  "geometry": {"coordinates":[[-122.370943,37.61799],[123.979597,10.314233]],"type":"MultiPoint"}
 }
