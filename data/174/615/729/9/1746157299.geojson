@@ -34,7 +34,7 @@
     "sfomuseum:departure_id": 102554351,
     "sfomuseum:flight_id": "20210817-A-BEL-9591",
     "sfomuseum:flight_number": [
-      "BEL9591", 
+      "BEL9591",
       "SN9591"
     ],
     "sfomuseum:placetype": "flight",
@@ -43,27 +43,34 @@
     "wof:country": "US",
     "wof:created": 1629302763,
     "wof:geomhash": "d6fced31e2f30d79d54c9b38b6916cc7",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746157299
+      }
+    ],
     "wof:id": 1746157299,
     "wof:involves": [
-      102527513, 
-      102554351, 
-      1377675597, 
-      -1, 
+      102527513,
+      102554351,
+      1377675597,
+      -1,
       1159283597
     ],
-    "wof:lastmodified": 1629302763,
+    "wof:lastmodified": 1717035360,
     "wof:name": "SN9591 (YUL-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-08",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -73.744749, 
+    -122.370943,
+    37.61799,
+    -73.744749,
     45.462004
   ],
   "geometry": {"coordinates":[[-73.744749,45.462004],[-122.370943,37.61799]],"type":"MultiPoint"}

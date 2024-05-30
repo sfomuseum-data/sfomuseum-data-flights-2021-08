@@ -34,7 +34,7 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210819-D-ANZ-9199",
     "sfomuseum:flight_number": [
-      "ANZ9199", 
+      "ANZ9199",
       "NZ9199"
     ],
     "sfomuseum:placetype": "flight",
@@ -43,27 +43,34 @@
     "wof:country": "US",
     "wof:created": 1629475960,
     "wof:geomhash": "4d8eca8dfd12d13a56951180b27dbf13",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746166645
+      }
+    ],
     "wof:id": 1746166645,
     "wof:involves": [
-      102534097, 
-      102527513, 
-      1159283697, 
-      -1, 
+      102534097,
+      102527513,
+      1159283697,
+      -1,
       1159285413
     ],
-    "wof:lastmodified": 1629475960,
+    "wof:lastmodified": 1717035360,
     "wof:name": "NZ9199 (SFO-IAH)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-08",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    29.977186, 
-    -95.338444, 
+    -122.370943,
+    29.977186,
+    -95.338444,
     37.61799
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-95.338444,29.977186]],"type":"MultiPoint"}

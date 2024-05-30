@@ -33,13 +33,13 @@
     "sfomuseum:departure_id": 102531023,
     "sfomuseum:flight_id": "20210813-A-UAL-2751",
     "sfomuseum:flight_number": [
-      "UAL2751", 
+      "UAL2751",
       "UA2751"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
+      "swim-route",
       "swim-path"
     ],
     "wof:belongsto": [],
@@ -50,26 +50,33 @@
     "wof:country": "US",
     "wof:created": 1628957346,
     "wof:geomhash": "38f88108bbae8bb050c3144d37bdc384",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746141887
+      }
+    ],
     "wof:id": 1746141887,
     "wof:involves": [
-      1159285413, 
-      1377564285, 
-      102527513, 
+      1159285413,
+      1377564285,
+      102527513,
       102531023
     ],
-    "wof:lastmodified": 1628957945,
+    "wof:lastmodified": 1717035357,
     "wof:name": "UA2751 (MIA-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-08",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    25.79047, 
-    -80.296006, 
+    -122.370943,
+    25.79047,
+    -80.296006,
     37.61799
   ],
   "geometry": {"coordinates":[[-80.296006,25.79047],[-122.370943,37.61799]],"type":"MultiPoint"}

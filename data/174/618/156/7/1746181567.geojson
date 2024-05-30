@@ -33,39 +33,46 @@
     "sfomuseum:departure_id": 102558433,
     "sfomuseum:flight_id": "20210823-A-UAE-225",
     "sfomuseum:flight_number": [
-      "UAE225", 
+      "UAE225",
       "EK225"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
+      "swim-route",
       "swim-approach"
     ],
     "wof:belongsto": [],
     "wof:country": "US",
     "wof:created": 1629821305,
     "wof:geomhash": "8eef79dee45c47eff2935879475b5fae",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746181567
+      }
+    ],
     "wof:id": 1746181567,
     "wof:involves": [
-      1159289993, 
-      102527513, 
-      102558433, 
+      1159289993,
+      102527513,
+      102558433,
       1159284333
     ],
-    "wof:lastmodified": 1629821948,
+    "wof:lastmodified": 1717035363,
     "wof:name": "EK225 (DXB-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-08",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    25.250063, 
-    55.362737, 
+    -122.370943,
+    25.250063,
+    55.362737,
     37.61799
   ],
   "geometry": {"coordinates":[[55.362737,25.250063],[-122.370943,37.61799]],"type":"MultiPoint"}

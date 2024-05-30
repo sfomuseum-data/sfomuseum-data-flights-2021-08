@@ -29,7 +29,7 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210801-D-SWA-6916",
     "sfomuseum:flight_number": [
-      "SWA6916", 
+      "SWA6916",
       "WN6916"
     ],
     "sfomuseum:placetype": "flight",
@@ -38,26 +38,33 @@
     "wof:country": "US",
     "wof:created": 1627921013,
     "wof:geomhash": "2a19f056fd5d16c52f22f1bf5dc85c9c",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746095997
+      }
+    ],
     "wof:id": 1746095997,
     "wof:involves": [
-      102526751, 
-      102527513, 
-      1159285591, 
+      102526751,
+      102527513,
+      1159285591,
       -1
     ],
-    "wof:lastmodified": 1627921013,
+    "wof:lastmodified": 1717035356,
     "wof:name": "WN6916 (SFO-PHX)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-08",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    33.432684, 
-    -112.017392, 
+    -122.370943,
+    33.432684,
+    -112.017392,
     37.61799
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-112.017392,33.432684]],"type":"MultiPoint"}

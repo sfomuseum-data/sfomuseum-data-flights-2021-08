@@ -33,7 +33,7 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210806-D-PAL-105",
     "sfomuseum:flight_number": [
-      "PAL105", 
+      "PAL105",
       "PR105"
     ],
     "sfomuseum:placetype": "flight",
@@ -45,26 +45,33 @@
     "wof:country": "US",
     "wof:created": 1628353069,
     "wof:geomhash": "d86898d5d90d953f6630362144c30ee0",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746115617
+      }
+    ],
     "wof:id": 1746115617,
     "wof:involves": [
-      1159289993, 
-      102553219, 
-      102527513, 
+      1159289993,
+      102553219,
+      102527513,
       1159285015
     ],
-    "wof:lastmodified": 1628353274,
+    "wof:lastmodified": 1717035360,
     "wof:name": "PR105 (SFO-MNL)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-08",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    14.517768, 
-    121.015152, 
+    -122.370943,
+    14.517768,
+    121.015152,
     37.61799
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[121.015152,14.517768]],"type":"MultiPoint"}

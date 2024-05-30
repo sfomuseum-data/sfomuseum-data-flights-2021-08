@@ -29,7 +29,7 @@
     "sfomuseum:departure_id": 102528541,
     "sfomuseum:flight_id": "20210810-A-AAL-28",
     "sfomuseum:flight_number": [
-      "AAL28", 
+      "AAL28",
       "AA28"
     ],
     "sfomuseum:placetype": "flight",
@@ -38,26 +38,33 @@
     "wof:country": "US",
     "wof:created": 1628697688,
     "wof:geomhash": "865973335526f09b753756c305bf4946",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746128491
+      }
+    ],
     "wof:id": 1746128491,
     "wof:involves": [
-      102527513, 
-      102528541, 
-      1159283849, 
+      102527513,
+      102528541,
+      1159283849,
       -1
     ],
-    "wof:lastmodified": 1628697688,
+    "wof:lastmodified": 1717035358,
     "wof:name": "AA28 (DFW-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-08",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    32.90366, 
-    -97.050966, 
+    -122.370943,
+    32.90366,
+    -97.050966,
     37.61799
   ],
   "geometry": {"coordinates":[[-97.050966,32.90366],[-122.370943,37.61799]],"type":"MultiPoint"}

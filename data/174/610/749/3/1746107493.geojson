@@ -33,7 +33,7 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210804-D-SCX-8774",
     "sfomuseum:flight_number": [
-      "SCX8774", 
+      "SCX8774",
       "SY8774"
     ],
     "sfomuseum:placetype": "flight",
@@ -45,26 +45,33 @@
     "wof:country": "US",
     "wof:created": 1628180243,
     "wof:geomhash": "602be2a828e3460cadf44be5b1c2e36b",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746107493
+      }
+    ],
     "wof:id": 1746107493,
     "wof:involves": [
-      1159289871, 
-      102533795, 
-      102527513, 
+      1159289871,
+      102533795,
+      102527513,
       1159285227
     ],
-    "wof:lastmodified": 1628180416,
+    "wof:lastmodified": 1717035361,
     "wof:name": "SY8774 (SFO-LAX)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-08",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    33.942593, 
-    -118.38951, 
+    -122.370943,
+    33.942593,
+    -118.38951,
     37.61799
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-118.38951,33.942593]],"type":"MultiPoint"}

@@ -95,10 +95,13 @@
       1159285015,
       1745882349
     ],
-    "wof:lastmodified": 1653097028,
+    "wof:lastmodified": 1717035363,
     "wof:name": "PR104 (MNL-SFO)",
     "wof:parent_id": 1745882377,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-08",
     "wof:superseded_by": [],
     "wof:supersedes": []

@@ -34,7 +34,7 @@
     "sfomuseum:departure_id": 102555307,
     "sfomuseum:flight_id": "20210825-A-UAL-8084",
     "sfomuseum:flight_number": [
-      "UAL8084", 
+      "UAL8084",
       "UA8084"
     ],
     "sfomuseum:placetype": "flight",
@@ -43,27 +43,34 @@
     "wof:country": "US",
     "wof:created": 1629994203,
     "wof:geomhash": "e68490b7b9257816408c117e0e15f8ec",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746189563
+      }
+    ],
     "wof:id": 1746189563,
     "wof:involves": [
-      102527513, 
-      102555307, 
-      1159285413, 
-      -1, 
+      102527513,
+      102555307,
+      1159285413,
+      -1,
       1159283597
     ],
-    "wof:lastmodified": 1629994203,
+    "wof:lastmodified": 1717035361,
     "wof:name": "UA8084 (YVR-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-08",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -123.1792, 
-    37.61799, 
-    -122.370943, 
+    -123.1792,
+    37.61799,
+    -122.370943,
     49.19333
   ],
   "geometry": {"coordinates":[[-123.1792,49.19333],[-122.370943,37.61799]],"type":"MultiPoint"}

@@ -56,10 +56,13 @@
       -1,
       1159286153
     ],
-    "wof:lastmodified": 1651261619,
+    "wof:lastmodified": 1717035361,
     "wof:name": "MH9733 (DOH-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-08",
     "wof:superseded_by": [],
     "wof:supersedes": []

@@ -33,7 +33,7 @@
     "sfomuseum:departure_id": 102532701,
     "sfomuseum:flight_id": "20210822-A-JBU-2843",
     "sfomuseum:flight_number": [
-      "JBU2843", 
+      "JBU2843",
       "B62843"
     ],
     "sfomuseum:placetype": "flight",
@@ -45,26 +45,33 @@
     "wof:country": "US",
     "wof:created": 1629734846,
     "wof:geomhash": "c5a7260789285730f3096bea2169f55b",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746177209
+      }
+    ],
     "wof:id": 1746177209,
     "wof:involves": [
-      1159292085, 
-      102527513, 
-      102532701, 
+      1159292085,
+      102527513,
+      102532701,
       1159284583
     ],
-    "wof:lastmodified": 1629735618,
+    "wof:lastmodified": 1717035361,
     "wof:name": "B62843 (BDL-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-08",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -72.687108, 
+    -122.370943,
+    37.61799,
+    -72.687108,
     41.934353
   ],
   "geometry": {"coordinates":[[-72.687108,41.934353],[-122.370943,37.61799]],"type":"MultiPoint"}

@@ -33,7 +33,7 @@
     "sfomuseum:departure_id": 102532251,
     "sfomuseum:flight_id": "20210804-A-SCX-8723",
     "sfomuseum:flight_number": [
-      "SCX8723", 
+      "SCX8723",
       "SY8723"
     ],
     "sfomuseum:placetype": "flight",
@@ -45,26 +45,33 @@
     "wof:country": "US",
     "wof:created": 1628179713,
     "wof:geomhash": "3af422147b92e6fa9912d38a57ea404a",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746105581
+      }
+    ],
     "wof:id": 1746105581,
     "wof:involves": [
-      102527513, 
-      102532251, 
-      1159285227, 
+      102527513,
+      102532251,
+      1159285227,
       1159289871
     ],
-    "wof:lastmodified": 1628180409,
+    "wof:lastmodified": 1717035359,
     "wof:name": "SY8723 (PDX-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-08",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.597389, 
-    37.61799, 
-    -122.370943, 
+    -122.597389,
+    37.61799,
+    -122.370943,
     45.586144
   ],
   "geometry": {"coordinates":[[-122.597389,45.586144],[-122.370943,37.61799]],"type":"MultiPoint"}

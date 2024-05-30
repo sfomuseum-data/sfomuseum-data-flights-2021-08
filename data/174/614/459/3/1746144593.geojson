@@ -94,10 +94,13 @@
       102527513,
       102536387
     ],
-    "wof:lastmodified": 1653097055,
+    "wof:lastmodified": 1717035359,
     "wof:name": "AM608 (GDL-SFO)",
     "wof:parent_id": 1745882387,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-08",
     "wof:superseded_by": [],
     "wof:supersedes": []

@@ -29,7 +29,7 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210804-D-UAL-232",
     "sfomuseum:flight_number": [
-      "UAL232", 
+      "UAL232",
       "UA232"
     ],
     "sfomuseum:placetype": "flight",
@@ -38,26 +38,33 @@
     "wof:country": "US",
     "wof:created": 1628180325,
     "wof:geomhash": "ffd2c7b34797175c51fc3517b1c4b69d",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746107797
+      }
+    ],
     "wof:id": 1746107797,
     "wof:involves": [
-      102532939, 
-      102527513, 
-      1159285413, 
+      102532939,
+      102527513,
+      1159285413,
       -1
     ],
-    "wof:lastmodified": 1628180325,
+    "wof:lastmodified": 1717035361,
     "wof:name": "UA232 (SFO-KOA)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-08",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -156.03506, 
-    19.732444, 
-    -122.370943, 
+    -156.03506,
+    19.732444,
+    -122.370943,
     37.61799
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-156.03506,19.732444]],"type":"MultiPoint"}

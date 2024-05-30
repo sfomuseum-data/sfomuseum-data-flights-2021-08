@@ -32,14 +32,14 @@
     "sfomuseum:departure_id": 102554351,
     "sfomuseum:flight_id": "20210817-A-ACA-763",
     "sfomuseum:flight_number": [
-      "ACA763", 
+      "ACA763",
       "AC763"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
-      "swim-path", 
+      "swim-route",
+      "swim-path",
       "swim-approach"
     ],
     "wof:belongsto": [],
@@ -49,26 +49,33 @@
     "wof:country": "US",
     "wof:created": 1629302636,
     "wof:geomhash": "d6fced31e2f30d79d54c9b38b6916cc7",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746156857
+      }
+    ],
     "wof:id": 1746156857,
     "wof:involves": [
-      102527513, 
-      102554351, 
-      1159283597, 
+      102527513,
+      102554351,
+      1159283597,
       -1
     ],
-    "wof:lastmodified": 1629303587,
+    "wof:lastmodified": 1717035360,
     "wof:name": "AC763 (YUL-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-08",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -73.744749, 
+    -122.370943,
+    37.61799,
+    -73.744749,
     45.462004
   ],
   "geometry": {"coordinates":[[-73.744749,45.462004],[-122.370943,37.61799]],"type":"MultiPoint"}

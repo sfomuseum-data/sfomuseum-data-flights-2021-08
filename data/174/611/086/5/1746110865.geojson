@@ -29,7 +29,7 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210805-D-ASA-330",
     "sfomuseum:flight_number": [
-      "ASA330", 
+      "ASA330",
       "AS330"
     ],
     "sfomuseum:placetype": "flight",
@@ -38,26 +38,33 @@
     "wof:country": "US",
     "wof:created": 1628266456,
     "wof:geomhash": "d9f9fb32305e7b36d764a406914a8e83",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746110865
+      }
+    ],
     "wof:id": 1746110865,
     "wof:involves": [
-      102526859, 
-      102527513, 
-      1159283813, 
+      102526859,
+      102527513,
+      1159283813,
       -1
     ],
-    "wof:lastmodified": 1628266456,
+    "wof:lastmodified": 1717035356,
     "wof:name": "AS330 (SFO-PSC)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-08",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -119.115996, 
+    -122.370943,
+    37.61799,
+    -119.115996,
     46.250133
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-119.115996,46.250133]],"type":"MultiPoint"}

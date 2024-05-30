@@ -33,14 +33,14 @@
     "sfomuseum:departure_id": 102533575,
     "sfomuseum:flight_id": "20210830-A-FFT-2757",
     "sfomuseum:flight_number": [
-      "FFT2757", 
+      "FFT2757",
       "F92757"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
-      "swim-path", 
+      "swim-route",
+      "swim-path",
       "swim-approach"
     ],
     "wof:belongsto": [],
@@ -50,26 +50,33 @@
     "wof:country": "US",
     "wof:created": 1630426033,
     "wof:geomhash": "094b2380067f0814bdd38962ab53e3d3",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746266935
+      }
+    ],
     "wof:id": 1746266935,
     "wof:involves": [
-      1377564295, 
-      102527513, 
-      102533575, 
+      1377564295,
+      102527513,
+      102533575,
       1159284401
     ],
-    "wof:lastmodified": 1630426861,
+    "wof:lastmodified": 1717035364,
     "wof:name": "F92757 (ONT-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-08",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    34.059934, 
-    -117.587749, 
+    -122.370943,
+    34.059934,
+    -117.587749,
     37.61799
   ],
   "geometry": {"coordinates":[[-117.587749,34.059934],[-122.370943,37.61799]],"type":"MultiPoint"}

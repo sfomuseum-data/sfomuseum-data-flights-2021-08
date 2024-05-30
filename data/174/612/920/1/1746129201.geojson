@@ -34,7 +34,7 @@
     "sfomuseum:departure_id": 102544459,
     "sfomuseum:flight_id": "20210810-A-AZA-3548",
     "sfomuseum:flight_number": [
-      "AZA3548", 
+      "AZA3548",
       "AZ3548"
     ],
     "sfomuseum:placetype": "flight",
@@ -43,27 +43,34 @@
     "wof:country": "US",
     "wof:created": 1628697883,
     "wof:geomhash": "07d689097487ceb3bc0a07973d8c4b93",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746129201
+      }
+    ],
     "wof:id": 1746129201,
     "wof:involves": [
-      102527513, 
-      102544459, 
-      1159283823, 
-      -1, 
+      102527513,
+      102544459,
+      1159283823,
+      -1,
       1159283627
     ],
-    "wof:lastmodified": 1628697883,
+    "wof:lastmodified": 1717035359,
     "wof:name": "AZ3548 (CDG-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-08",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    2.542809, 
+    -122.370943,
+    37.61799,
+    2.542809,
     49.007854
   ],
   "geometry": {"coordinates":[[2.542809,49.007854],[-122.370943,37.61799]],"type":"MultiPoint"}

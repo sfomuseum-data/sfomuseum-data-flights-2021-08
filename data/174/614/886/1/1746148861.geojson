@@ -34,7 +34,7 @@
     "sfomuseum:departure_id": 102551487,
     "sfomuseum:flight_id": "20210815-A-DAL-7725",
     "sfomuseum:flight_number": [
-      "DAL7725", 
+      "DAL7725",
       "DL7725"
     ],
     "sfomuseum:placetype": "flight",
@@ -43,27 +43,34 @@
     "wof:country": "US",
     "wof:created": 1629129986,
     "wof:geomhash": "07bfd75b358269393c92373b424876ce",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746148861
+      }
+    ],
     "wof:id": 1746148861,
     "wof:involves": [
-      102527513, 
-      102551487, 
-      1159284261, 
-      -1, 
+      102527513,
+      102551487,
+      1159284261,
+      -1,
       1159284153
     ],
-    "wof:lastmodified": 1629129986,
+    "wof:lastmodified": 1717035362,
     "wof:name": "DL7725 (TPE-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-08",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    25.078566, 
-    121.233152, 
+    -122.370943,
+    25.078566,
+    121.233152,
     37.61799
   ],
   "geometry": {"coordinates":[[121.233152,25.078566],[-122.370943,37.61799]],"type":"MultiPoint"}

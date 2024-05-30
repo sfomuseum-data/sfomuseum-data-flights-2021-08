@@ -86,10 +86,13 @@
       1159285413,
       1745882239
     ],
-    "wof:lastmodified": 1653097047,
+    "wof:lastmodified": 1717035356,
     "wof:name": "UA4755 (JAC-SFO)",
     "wof:parent_id": 1745882259,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-08",
     "wof:superseded_by": [],
     "wof:supersedes": []

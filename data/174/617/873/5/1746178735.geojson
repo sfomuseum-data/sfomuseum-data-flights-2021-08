@@ -29,7 +29,7 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210822-D-ASA-3390",
     "sfomuseum:flight_number": [
-      "ASA3390", 
+      "ASA3390",
       "AS3390"
     ],
     "sfomuseum:placetype": "flight",
@@ -38,26 +38,33 @@
     "wof:country": "US",
     "wof:created": 1629735248,
     "wof:geomhash": "9d5970fb497c224f692cb976d5929b90",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746178735
+      }
+    ],
     "wof:id": 1746178735,
     "wof:involves": [
-      102533331, 
-      102527513, 
-      1159283813, 
+      102533331,
+      102527513,
+      1159283813,
       -1
     ],
-    "wof:lastmodified": 1629735248,
+    "wof:lastmodified": 1717035362,
     "wof:name": "AS3390 (SFO-GEG)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-08",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -117.531916, 
+    -122.370943,
+    37.61799,
+    -117.531916,
     47.625686
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-117.531916,47.625686]],"type":"MultiPoint"}

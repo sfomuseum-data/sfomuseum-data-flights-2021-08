@@ -29,7 +29,7 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210826-D-ASA-331",
     "sfomuseum:flight_number": [
-      "ASA331", 
+      "ASA331",
       "AS331"
     ],
     "sfomuseum:placetype": "flight",
@@ -38,26 +38,33 @@
     "wof:country": "US",
     "wof:created": 1630080815,
     "wof:geomhash": "029159a11f35cb7f92e728b838da58ba",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746194261
+      }
+    ],
     "wof:id": 1746194261,
     "wof:involves": [
-      102529173, 
-      102527513, 
-      1159283813, 
+      102529173,
+      102527513,
+      1159283813,
       -1
     ],
-    "wof:lastmodified": 1630080815,
+    "wof:lastmodified": 1717035363,
     "wof:name": "AS331 (SFO-ABQ)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-08",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    35.048762, 
-    -106.620586, 
+    -122.370943,
+    35.048762,
+    -106.620586,
     37.61799
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-106.620586,35.048762]],"type":"MultiPoint"}

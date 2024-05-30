@@ -34,7 +34,7 @@
     "sfomuseum:departure_id": 102534161,
     "sfomuseum:flight_id": "20210804-A-QTR-3358",
     "sfomuseum:flight_number": [
-      "QTR3358", 
+      "QTR3358",
       "QR3358"
     ],
     "sfomuseum:placetype": "flight",
@@ -43,27 +43,34 @@
     "wof:country": "US",
     "wof:created": 1628179699,
     "wof:geomhash": "01009f732d03a7803d3f7fd23cf321f4",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746105537
+      }
+    ],
     "wof:id": 1746105537,
     "wof:involves": [
-      102527513, 
-      102534161, 
-      1159286153, 
-      -1, 
+      102527513,
+      102534161,
+      1159286153,
+      -1,
       1159283813
     ],
-    "wof:lastmodified": 1628179699,
+    "wof:lastmodified": 1717035359,
     "wof:name": "QR3358 (SNA-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-08",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    33.677724, 
-    -117.86628, 
+    -122.370943,
+    33.677724,
+    -117.86628,
     37.61799
   ],
   "geometry": {"coordinates":[[-117.86628,33.677724],[-122.370943,37.61799]],"type":"MultiPoint"}

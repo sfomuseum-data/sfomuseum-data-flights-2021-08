@@ -33,14 +33,14 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210801-D-UAL-2747",
     "sfomuseum:flight_number": [
-      "UAL2747", 
+      "UAL2747",
       "UA2747"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
-      "swim-path", 
+      "swim-route",
+      "swim-path",
       "swim-takeoff"
     ],
     "wof:belongsto": [],
@@ -51,26 +51,33 @@
     "wof:country": "US",
     "wof:created": 1627921078,
     "wof:geomhash": "ccf694144ef1f7a2823fe9bc7c6018ea",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746096249
+      }
+    ],
     "wof:id": 1746096249,
     "wof:involves": [
-      1159292085, 
-      102527209, 
-      102527513, 
+      1159292085,
+      102527209,
+      102527513,
       1159285413
     ],
-    "wof:lastmodified": 1627921160,
+    "wof:lastmodified": 1717035356,
     "wof:name": "UA2747 (SFO-LAS)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-08",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    36.081003, 
-    -115.15644, 
+    -122.370943,
+    36.081003,
+    -115.15644,
     37.61799
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-115.15644,36.081003]],"type":"MultiPoint"}

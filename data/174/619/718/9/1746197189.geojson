@@ -33,14 +33,14 @@
     "sfomuseum:departure_id": 102558779,
     "sfomuseum:flight_id": "20210827-A-UAL-114",
     "sfomuseum:flight_number": [
-      "UAL114", 
+      "UAL114",
       "UA114"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
-      "swim-path", 
+      "swim-route",
+      "swim-path",
       "swim-approach"
     ],
     "wof:belongsto": [],
@@ -51,26 +51,33 @@
     "wof:country": "US",
     "wof:created": 1630166933,
     "wof:geomhash": "cb635fc427df70f0d5f88d1f39ad4ded",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746197189
+      }
+    ],
     "wof:id": 1746197189,
     "wof:involves": [
-      102558779, 
-      1159285413, 
-      1159293215, 
+      102558779,
+      1159285413,
+      1159293215,
       102527513
     ],
-    "wof:lastmodified": 1630167617,
+    "wof:lastmodified": 1717035364,
     "wof:name": "UA114 (PPT-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-08",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -149.617144, 
-    -17.573463, 
-    -122.370943, 
+    -149.617144,
+    -17.573463,
+    -122.370943,
     37.61799
   ],
   "geometry": {"coordinates":[[-149.617144,-17.573463],[-122.370943,37.61799]],"type":"MultiPoint"}

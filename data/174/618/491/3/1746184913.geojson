@@ -33,7 +33,7 @@
     "sfomuseum:departure_id": 102526927,
     "sfomuseum:flight_id": "20210824-A-DAL-8883",
     "sfomuseum:flight_number": [
-      "DAL8883", 
+      "DAL8883",
       "DL8883"
     ],
     "sfomuseum:placetype": "flight",
@@ -45,26 +45,33 @@
     "wof:country": "US",
     "wof:created": 1629907563,
     "wof:geomhash": "ae92617dd2aca2afdb0c9096232ff0bb",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746184913
+      }
+    ],
     "wof:id": 1746184913,
     "wof:involves": [
-      1159289939, 
-      102527513, 
-      102526927, 
+      1159289939,
+      102527513,
+      102526927,
       1159284261
     ],
-    "wof:lastmodified": 1629908356,
+    "wof:lastmodified": 1717035357,
     "wof:name": "DL8883 (ATL-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-08",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    33.636518, 
-    -84.430686, 
+    -122.370943,
+    33.636518,
+    -84.430686,
     37.61799
   ],
   "geometry": {"coordinates":[[-84.430686,33.636518],[-122.370943,37.61799]],"type":"MultiPoint"}

@@ -33,7 +33,7 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210822-D-WJA-1775",
     "sfomuseum:flight_number": [
-      "WJA1775", 
+      "WJA1775",
       "WS1775"
     ],
     "sfomuseum:placetype": "flight",
@@ -49,26 +49,33 @@
     "wof:country": "US",
     "wof:created": 1629735582,
     "wof:geomhash": "af4ccf784d832b160f78d13fe8b8589a",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746180043
+      }
+    ],
     "wof:id": 1746180043,
     "wof:involves": [
-      1159289869, 
-      102555307, 
-      102527513, 
+      1159289869,
+      102555307,
+      102527513,
       1159285523
     ],
-    "wof:lastmodified": 1629735607,
+    "wof:lastmodified": 1717035363,
     "wof:name": "WS1775 (SFO-YVR)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-08",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -123.1792, 
-    37.61799, 
-    -122.370943, 
+    -123.1792,
+    37.61799,
+    -122.370943,
     49.19333
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-123.1792,49.19333]],"type":"MultiPoint"}

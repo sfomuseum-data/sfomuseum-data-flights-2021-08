@@ -33,7 +33,7 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210806-D-JBU-6547",
     "sfomuseum:flight_number": [
-      "JBU6547", 
+      "JBU6547",
       "B66547"
     ],
     "sfomuseum:placetype": "flight",
@@ -48,26 +48,33 @@
     "wof:country": "US",
     "wof:created": 1628353041,
     "wof:geomhash": "602be2a828e3460cadf44be5b1c2e36b",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746115517
+      }
+    ],
     "wof:id": 1746115517,
     "wof:involves": [
-      1159292085, 
-      102533795, 
-      102527513, 
+      1159292085,
+      102533795,
+      102527513,
       1159284583
     ],
-    "wof:lastmodified": 1628353274,
+    "wof:lastmodified": 1717035359,
     "wof:name": "B66547 (SFO-LAX)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-08",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    33.942593, 
-    -118.38951, 
+    -122.370943,
+    33.942593,
+    -118.38951,
     37.61799
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-118.38951,33.942593]],"type":"MultiPoint"}

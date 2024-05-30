@@ -96,10 +96,13 @@
       1159289421,
       102545733
     ],
-    "wof:lastmodified": 1653097031,
+    "wof:lastmodified": 1717035359,
     "wof:name": "IB2622 (SFO-BCN)",
     "wof:parent_id": 1745882391,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-08",
     "wof:superseded_by": [],
     "wof:supersedes": []

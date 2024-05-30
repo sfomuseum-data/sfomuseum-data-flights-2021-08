@@ -33,13 +33,13 @@
     "sfomuseum:departure_id": 102532771,
     "sfomuseum:flight_id": "20210828-A-SWA-5709",
     "sfomuseum:flight_number": [
-      "SWA5709", 
+      "SWA5709",
       "WN5709"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-path", 
+      "swim-path",
       "swim-approach"
     ],
     "wof:belongsto": [],
@@ -49,26 +49,33 @@
     "wof:country": "US",
     "wof:created": 1630253289,
     "wof:geomhash": "579cc6c0d5668ba584a946b357aa3191",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746201489
+      }
+    ],
     "wof:id": 1746201489,
     "wof:involves": [
-      102527513, 
-      102532771, 
-      1159285591, 
+      102527513,
+      102532771,
+      1159285591,
       1159289869
     ],
-    "wof:lastmodified": 1630253913,
+    "wof:lastmodified": 1717035360,
     "wof:name": "WN5709 (BUR-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-08",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    34.196704, 
-    -118.353322, 
+    -122.370943,
+    34.196704,
+    -118.353322,
     37.61799
   ],
   "geometry": {"coordinates":[[-118.353322,34.196704],[-122.370943,37.61799]],"type":"MultiPoint"}

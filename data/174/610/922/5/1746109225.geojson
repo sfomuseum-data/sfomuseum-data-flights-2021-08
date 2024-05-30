@@ -96,10 +96,13 @@
       102527513,
       102533575
     ],
-    "wof:lastmodified": 1653097038,
+    "wof:lastmodified": 1717035362,
     "wof:name": "F92755 (ONT-SFO)",
     "wof:parent_id": 1745882389,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-08",
     "wof:superseded_by": [],
     "wof:supersedes": []

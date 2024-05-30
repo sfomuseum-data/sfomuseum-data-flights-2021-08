@@ -29,7 +29,7 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210822-D-JBU-2844",
     "sfomuseum:flight_number": [
-      "JBU2844", 
+      "JBU2844",
       "B62844"
     ],
     "sfomuseum:placetype": "flight",
@@ -38,26 +38,33 @@
     "wof:country": "US",
     "wof:created": 1629735368,
     "wof:geomhash": "0643ebfe04300154e23bafd48af1076e",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746179207
+      }
+    ],
     "wof:id": 1746179207,
     "wof:involves": [
-      102532701, 
-      102527513, 
-      1159284583, 
+      102532701,
+      102527513,
+      1159284583,
       -1
     ],
-    "wof:lastmodified": 1629735368,
+    "wof:lastmodified": 1717035362,
     "wof:name": "B62844 (SFO-BDL)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-08",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -72.687108, 
+    -122.370943,
+    37.61799,
+    -72.687108,
     41.934353
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-72.687108,41.934353]],"type":"MultiPoint"}

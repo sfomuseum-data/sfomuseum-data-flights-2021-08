@@ -33,13 +33,13 @@
     "sfomuseum:departure_id": 102554947,
     "sfomuseum:flight_id": "20210822-A-WJA-1508",
     "sfomuseum:flight_number": [
-      "WJA1508", 
+      "WJA1508",
       "WS1508"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-path", 
+      "swim-path",
       "swim-approach"
     ],
     "wof:belongsto": [],
@@ -50,26 +50,33 @@
     "wof:country": "US",
     "wof:created": 1629735069,
     "wof:geomhash": "4b8d850891e12dfac0a460ee51cd363b",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746178043
+      }
+    ],
     "wof:id": 1746178043,
     "wof:involves": [
-      102554947, 
-      1159285523, 
-      1159289869, 
+      102554947,
+      1159285523,
+      1159289869,
       102527513
     ],
-    "wof:lastmodified": 1629735624,
+    "wof:lastmodified": 1717035362,
     "wof:name": "WS1508 (YYC-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-08",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -114.02092, 
+    -122.370943,
+    37.61799,
+    -114.02092,
     51.119526
   ],
   "geometry": {"coordinates":[[-114.02092,51.119526],[-122.370943,37.61799]],"type":"MultiPoint"}

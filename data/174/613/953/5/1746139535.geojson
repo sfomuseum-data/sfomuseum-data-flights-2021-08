@@ -29,7 +29,7 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210812-D-SWA-121",
     "sfomuseum:flight_number": [
-      "SWA121", 
+      "SWA121",
       "WN121"
     ],
     "sfomuseum:placetype": "flight",
@@ -38,26 +38,33 @@
     "wof:country": "US",
     "wof:created": 1628871389,
     "wof:geomhash": "5b5841a3ebf3c57d9843115edfb8ee6b",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746139535
+      }
+    ],
     "wof:id": 1746139535,
     "wof:involves": [
-      102532771, 
-      102527513, 
-      1159285591, 
+      102532771,
+      102527513,
+      1159285591,
       -1
     ],
-    "wof:lastmodified": 1628871389,
+    "wof:lastmodified": 1717035362,
     "wof:name": "WN121 (SFO-BUR)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-08",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    34.196704, 
-    -118.353322, 
+    -122.370943,
+    34.196704,
+    -118.353322,
     37.61799
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-118.353322,34.196704]],"type":"MultiPoint"}

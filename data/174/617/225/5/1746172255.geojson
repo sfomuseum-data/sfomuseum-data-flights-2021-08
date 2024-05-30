@@ -29,7 +29,7 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210820-D-WJA-1509",
     "sfomuseum:flight_number": [
-      "WJA1509", 
+      "WJA1509",
       "WS1509"
     ],
     "sfomuseum:placetype": "flight",
@@ -38,26 +38,33 @@
     "wof:country": "US",
     "wof:created": 1629562753,
     "wof:geomhash": "a7dd599440af55c5534b52449c3164ed",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746172255
+      }
+    ],
     "wof:id": 1746172255,
     "wof:involves": [
-      102554947, 
-      102527513, 
-      1159285523, 
+      102554947,
+      102527513,
+      1159285523,
       -1
     ],
-    "wof:lastmodified": 1629562753,
+    "wof:lastmodified": 1717035357,
     "wof:name": "WS1509 (SFO-YYC)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-08",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -114.02092, 
+    -122.370943,
+    37.61799,
+    -114.02092,
     51.119526
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-114.02092,51.119526]],"type":"MultiPoint"}

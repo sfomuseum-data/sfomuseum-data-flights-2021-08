@@ -29,7 +29,7 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210820-D-TAP-236",
     "sfomuseum:flight_number": [
-      "TAP236", 
+      "TAP236",
       "TP236"
     ],
     "sfomuseum:placetype": "flight",
@@ -38,26 +38,33 @@
     "wof:country": "US",
     "wof:created": 1629562624,
     "wof:geomhash": "d52bb0a5cfa06eebb6a938b29d78a44d",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746171745
+      }
+    ],
     "wof:id": 1746171745,
     "wof:involves": [
-      102535643, 
-      102527513, 
-      1159285271, 
+      102535643,
+      102527513,
+      1159285271,
       -1
     ],
-    "wof:lastmodified": 1629562624,
+    "wof:lastmodified": 1717035357,
     "wof:name": "TP236 (SFO-LIS)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-08",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -9.135591, 
+    -122.370943,
+    37.61799,
+    -9.135591,
     38.772844
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-9.135591,38.772844]],"type":"MultiPoint"}

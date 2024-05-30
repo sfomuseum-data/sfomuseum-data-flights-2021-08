@@ -29,7 +29,7 @@
     "sfomuseum:departure_id": 102536223,
     "sfomuseum:flight_id": "20210819-A-UAL-1159",
     "sfomuseum:flight_number": [
-      "UAL1159", 
+      "UAL1159",
       "UA1159"
     ],
     "sfomuseum:placetype": "flight",
@@ -38,26 +38,33 @@
     "wof:country": "US",
     "wof:created": 1629475722,
     "wof:geomhash": "c1b858affbd20b2c728ba535a4ce178e",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746165711
+      }
+    ],
     "wof:id": 1746165711,
     "wof:involves": [
-      102527513, 
-      102536223, 
-      1159285413, 
+      102527513,
+      102536223,
+      1159285413,
       -1
     ],
-    "wof:lastmodified": 1629475722,
+    "wof:lastmodified": 1717035359,
     "wof:name": "UA1159 (CUN-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-08",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    21.040317, 
-    -86.872856, 
+    -122.370943,
+    21.040317,
+    -86.872856,
     37.61799
   ],
   "geometry": {"coordinates":[[-86.872856,21.040317],[-122.370943,37.61799]],"type":"MultiPoint"}
